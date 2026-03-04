@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb
+.cache/
+data/
+.git/
+.gitignore
+Dockerfile*
+docker-compose*.yml
+*.pem
+*.key
+*.pkl
+*.log

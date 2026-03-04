@@ -1,0 +1,27 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - app_cache:/app/.cache
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT:-development}
+      - WEB_CONCURRENCY=${WEB_CONCURRENCY:-2}
+
+  # Optional local Qdrant (only when you run with profile: local-db)
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    profiles:
+      - local-db
+
+volumes:
+  qdrant_storage:
+  app_cache:

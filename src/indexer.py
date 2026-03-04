@@ -4,15 +4,19 @@ from sentence_transformers import SentenceTransformer
 import uuid
 from typing import List, Dict
 from tqdm import tqdm
+import time
+import random
 
 from .config import settings
 
 
 class QdrantCloudIndexer:
     def __init__(self):
+        # ⬇️ timeout বাড়ালাম + retry friendly
         self.client = QdrantClient(
             url=settings.QDRANT_URL,
-            api_key=settings.QDRANT_API_KEY
+            api_key=settings.QDRANT_API_KEY,
+            timeout=120,          # seconds (default কম থাকে)
         )
         self._embedder = None
 
@@ -29,9 +33,7 @@ class QdrantCloudIndexer:
 
         for collection in collections:
             try:
-                info = self.client.get_collection(collection)
-                # (Optional) validate vector config
-                # If you want strict validation, uncomment and adapt based on your qdrant client version
+                _ = self.client.get_collection(collection)
                 print(f"Collection {collection} exists")
             except Exception:
                 print(f"Creating collection {collection}...")
@@ -44,7 +46,28 @@ class QdrantCloudIndexer:
                 )
                 print(f"Created collection {collection}")
 
-    def index_documents(self, collection_name: str, documents: List[Dict], batch_size: int = 100):
+    def _safe_upsert(self, collection_name: str, points: List[PointStruct], max_retries: int = 6):
+        """
+        Upsert with retry + exponential backoff.
+        """
+        last_err = None
+        for attempt in range(max_retries):
+            try:
+                self.client.upsert(collection_name=collection_name, points=points, wait=True)
+                return
+            except Exception as e:
+                last_err = e
+                # backoff: 1s,2s,4s,8s,... + jitter
+                sleep_s = (2 ** attempt) + random.random()
+                print(f"[Upsert retry {attempt+1}/{max_retries}] {type(e).__name__}: {e} | sleep {sleep_s:.1f}s")
+                time.sleep(sleep_s)
+
+        raise RuntimeError(f"Upsert failed after {max_retries} retries: {last_err}")
+
+    def index_documents(self, collection_name: str, documents: List[Dict], batch_size: int = 32):
+        """
+        batch ছোট রাখলে write timeout কম হবে।
+        """
         points = []
         total = 0
 
@@ -52,7 +75,6 @@ class QdrantCloudIndexer:
             text = doc.get("text", "") or ""
             meta = doc.get("metadata", {}) or {}
 
-            # Safe encode -> always 1 vector
             emb = self.embedder.encode(
                 [text],
                 normalize_embeddings=True,
@@ -70,12 +92,12 @@ class QdrantCloudIndexer:
             )
 
             if len(points) >= batch_size:
-                self.client.upsert(collection_name=collection_name, points=points, wait=True)
+                self._safe_upsert(collection_name, points)
                 total += len(points)
                 points = []
 
         if points:
-            self.client.upsert(collection_name=collection_name, points=points, wait=True)
+            self._safe_upsert(collection_name, points)
             total += len(points)
 
         print(f"Indexed {total} documents to {collection_name}")
