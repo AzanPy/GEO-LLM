@@ -1,0 +1,29 @@
+{
+  "gse_id": "GSE254513",
+  "title": "Cellular and Molecular Profiling of Collagenous Gastritis",
+  "organism": "Homo sapiens",
+  "study_summary": "Collagenous gastritis (CG) is a rare disease characterized by thick bands of subepithelial collagen within the stomach and presents with a variety of symptoms ranging from anemia to vomiting. Gastric biopsies were collected from six CG patients, including one patient before and after glucocorticoid steroid treatment, and several matched controls. Single-cell RNA- and T-cell receptor (TCR)-sequencing was performed on gastric biopsies.",
+  "experimental_design": {
+    "overall_design": "Control or CG patient biopsies were processed fresh and unsorted or frozen and CD45+ live flow-sorted. Single cell suspensions where processed in the 10x Genomics pipeline for scRNA- and scTCR-sequencing.",
+    "experimental_type": "Expression profiling by high throughput sequencing; Other",
+    "tissue": "Stomach (fundus)"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24676",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "Biopsy bites were immediately collected into DMEM media on ice, or put into freezing media (10% DMSO; 40% RPMI; 50% FBS) and frozen (for later CD45-enrichment). Fresh or frozen and thawed tissue was then manually dissociated with a sterile razor and transferred to pre-warmed 37\u00b0C digestion enzyme mix in RPMI (Miltenyi tumor dissociation kit, cat. 130-095-929). In a 37\u00b0C water bath, tissue digestion was agitated every 2 minutes, and pipetted up and down every 10 minutes for a total of 30 minutes. Digested tissue was filtered through a 70\u03bcM strainer, washed with RPMI containg 10% FBS, and the single-cell suspension was collected and processed for scRNAseq. Fresh samples were loaded immediately while frozen samples were sorted for CD45+ Live (Zombie-NIR-) cells.",
+      "Library preparation was performed with the 10x Genomics Chromium Single Cell 5\u2019 v2 library kit (for both GEX and TCR libraries)"
+    ]
+  },
+  "study_metadata": {
+    "status": "Public on Nov 16 2025",
+    "submission_date": "Jan 29 2024",
+    "last_update_date": "Nov 16 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1070689"
+  }
+}

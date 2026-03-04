@@ -1,0 +1,56 @@
+{
+  "gse_id": "GSE261489",
+  "sample_summary": {
+    "total_samples": 4
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM8145269",
+      "title": "rat_skin1",
+      "biological_metadata": {
+        "tissue": "skin",
+        "genotype": "WT"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN40438907",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23939162"
+      }
+    },
+    {
+      "gsm_id": "GSM8145270",
+      "title": "rat_skin2",
+      "biological_metadata": {
+        "tissue": "skin",
+        "genotype": "WT"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN40438906",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23939163"
+      }
+    },
+    {
+      "gsm_id": "GSM8145271",
+      "title": "rat_fascia1",
+      "biological_metadata": {
+        "tissue": "subcutanous fascia",
+        "genotype": "WT"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN40438905",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23939164"
+      }
+    },
+    {
+      "gsm_id": "GSM8145272",
+      "title": "rat_fascia2",
+      "biological_metadata": {
+        "tissue": "subcutanous fascia",
+        "genotype": "WT"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN40438904",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23939165"
+      }
+    }
+  ]
+}

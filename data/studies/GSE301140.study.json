@@ -1,0 +1,40 @@
+{
+  "gse_id": "GSE301140",
+  "title": "Dual Programmed Death Receptor-1 and Vascular Endothelial Growth Factor Receptor-2 Blockade Promotes Vascular Normalization and Enhances Antitumor Immune Responses in Hepatocellular Carcinoma",
+  "organism": "Mus musculus",
+  "study_summary": "Background and aims: Activation of the antitumor immune response using programmed death receptor-1 (PD-1) blockade showed benefit only in a fraction of patients with hepatocellular carcinoma (HCC). Combining PD-1 blockade with antiangiogenesis has shown promise in substantially increasing the fraction of patients with HCC who respond to treatment, but the mechanism of this interaction is unknown. Approach and results: We recapitulated these clinical outcomes using orthotopic-grafted or induced-murine models of HCC. Specific blockade of vascular endothelial receptor 2 (VEGFR-2) using a murine antibody significantly delayed primary tumor growth but failed to prolong survival, while anti-PD-1 antibody treatment alone conferred a minor survival advantage in one model. However, dual anti-PD-1/VEGFR-2 therapy significantly inhibited primary tumor growth and doubled survival in both models. Combination therapy reprogrammed the immune microenvironment by increasing cluster of differentiation 8-positive (CD8+ ) cytotoxic T cell infiltration and activation, shifting the M1/M2 ratio of tumor-associated macrophages and reducing T regulatory cell (Treg) and chemokine (C-C motif) receptor 2-positive monocyte infiltration in HCC tissue. In these models, VEGFR-2 was selectively expressed in tumor endothelial cells. Using spheroid cultures of HCC tissue, we found that PD-ligand 1 expression in HCC cells was induced in a paracrine manner upon anti-VEGFR-2 blockade in endothelial cells in part through interferon-gamma expression. Moreover, we found that VEGFR-2 blockade increased PD-1 expression in tumor-infiltrating CD4+ cells. We also found that under anti-PD-1 therapy, CD4+ cells promote normalized vessel formation in the face of antiangiogenic therapy with anti-VEGFR-2 antibody. Conclusions: We show that dual anti-PD-1/VEGFR-2 therapy has a durable vessel fortification effect in HCC and can overcome treatment resistance to either treatment alone and increase overall survival in both anti-PD-1 therapy-resistant and anti-PD-1 therapy-responsive HCC models.",
+  "experimental_design": {
+    "overall_design": "Using murine tumor tissues collected in a time-matched manner, we employed RNA-seq to evaluate the transcriptional changes in murine RIL-175 hepatocellular carcinoma (HCC) tissues after the treatment with anti-PD-1 or dual anti-PD-1/VEGFR-2 therapy with or without anti-CD4.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "tumor"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24247",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "Total RNA was extracted from the tumor tissues using Qiagen kits.",
+      "RNA libraries for RNA-seq were prepared using Qiagen Stranded RNA Library Kits following manufacturer's protocols."
+    ]
+  },
+  "data_processing": [
+    "The quality control of RNA-seq raw data was performed by FastQC.",
+    "After quality control, the low-quality bases and adaptors contamination was removed by Cutadapt.",
+    "Next, the clean data were aligned to mouse reference genome mm39 by STAR under two-pass mode.",
+    "After data mapping, samtools and featureCounts were used to count the number of reads aligned to the gene features.",
+    "Assembly: mm39",
+    "Supplementary files format and content: R data serialization file includes count values for each sample"
+  ],
+  "study_metadata": {
+    "status": "Public on Oct 26 2025",
+    "submission_date": "Jun 30 2025",
+    "last_update_date": "Dec 10 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1284180"
+  }
+}

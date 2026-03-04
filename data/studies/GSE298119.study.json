@@ -1,0 +1,39 @@
+{
+  "gse_id": "GSE298119",
+  "title": "Single cell RNA sequencing of placenta in patients with preeclampsia",
+  "organism": "Homo sapiens",
+  "study_summary": "We performed single-cell RNA sequencing in placental tissues from normotensive and preeclamptic term pregnancies after cesarean section to explore placental transcriptomic alterations and pathological mechanisms associated with preeclampsia. Our research aims to elucidate placental dysfunction in PE and its impact on maternal-fetal outcomes, providing new insights into the pathogenesis of preeclampsia and identifying potential biomarkers for early detection and intervention.",
+  "experimental_design": {
+    "overall_design": "Following collection of placental biopsies from both normotensive controls and preeclamptic cases, tissues were immediately dissociated into single-cell suspensions. The standardized protocol included gentle enzymatic digestion optimized for placental villous tissue (Collagenase IV/DNase I), followed by sequential processing through mechanical disruption, 70-\u03bcm filtration, erythrocyte lysis (ACK buffer), dead cell removal (MACS LD columns), and viability assessment (>85% via Trypan Blue exclusion). After quality control verification, cells were resuspended in PBS with 0.04% BSA and loaded onto the 10x Genomics Chromium Controller (v3.1 chemistry) to generate single-cell GEMs. Libraries were prepared according to manufacturer's protocol and sequenced on Illumina NovaSeq 6000 (PE150, sequencing depth >50,000 reads/cell) with 30% PhiX spike-in for low-diversity libraries.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "placenta"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24676",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic single cell",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "After collecting placental tissues, they were immediately processed into single-cell suspensions. The process involved washing, cutting, digesting, filtering, lysing red blood cells, removing dead cells, staining, and finally suspending the cells in a solution. The single-cell suspension was loaded onto the Chromium Controller to generate single-cell gel beads, followed by single-cell RNA sequencing using the Illumina Novaseq6000 sequencer.",
+      "The single-cell suspension was loaded onto the Chromium Controller according to the manufacturer's instructions (10X Genomics) to generate single-cell gel beads. After the generation of single-cell gel beads, single-cell RNA-seq libraries were constructed using the single-cell 3' library and gel bead kit V3.1 on an Illumina Novaseq6000 sequencer, employing a paired-end strategy with 150 bp read lengths, to generate sequencing data of at least 150 gigabases per sample."
+    ]
+  },
+  "data_processing": [
+    "(1) Alignment: We aligned Illumina-generated FASTQ files to the human reference genome (GRCh38) using the STAR algorithm.",
+    "(2) Data Aggregation: To account for sequencing depth differences across libraries, we aggregated and down-sampled the data using Cell Ranger Aggregate. This step resulted in gene-barcode matrices for each sample.",
+    "(3) Quality Control and Downstream Analysis: We performed quality control and downstream analysis of single-cell RNA-seq data using Seurat.",
+    "Assembly: hg38",
+    "Supplementary files format and content: Tab-separated values files and matrix files"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 30 2025",
+    "submission_date": "May 27 2025",
+    "last_update_date": "Dec 31 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1268385"
+  }
+}

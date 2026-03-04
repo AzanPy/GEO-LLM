@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO-LLM RAG Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🔬 GEO-LLM RAG Assistant</h1>
+            <p class="subtitle">Biomedical Dataset Search powered by Qdrant Cloud + Groq</p>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div class="messages" id="messages">
+                    <div class="message bot">
+                        <div class="avatar">🤖</div>
+                        <div class="content">
+                            <p>Hello! I'm your GEO dataset assistant. Ask me about:</p>
+                            <ul>
+                                <li>Specific datasets (e.g., "Find human retinal datasets with AMD")</li>
+                                <li>Experimental designs (e.g., "Which studies have biological replicates?")</li>
+                                <li>Sample metadata (e.g., "Mouse brain samples with single-cell RNA-seq")</li>
+                                <li>Platform/technology comparisons</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="input-area" action="/chat" method="POST" id="chatForm">
+                    <input type="text" name="message" id="messageInput" placeholder="Ask about GEO datasets..." required
+                        autocomplete="off">
+                    <button type="submit" id="sendBtn">
+                        <span>Send</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
+            {% if query %}
+            <div class="result-section">
+                <div class="query-box">
+                    <strong>Your Question:</strong> {{ query }}
+                </div>
+
+                {% if error %}
+                <div class="error-box">
+                    <strong>Error:</strong> {{ error }}
+                </div>
+                {% else %}
+                <div class="answer-box">
+                    <h3>🤖 Answer</h3>
+                    <div class="answer-content">{{ answer | safe }}</div>
+                </div>
+
+                {% if sources %}
+                <div class="sources-box">
+                    <h4>📚 Sources (Top {{ sources|length }})</h4>
+                    {% for source in sources %}
+                    <div class="source-item">
+                        <div class="source-header">
+                            <span class="badge">{{ source.source }}</span>
+                            <span class="gse-id">{{ source.gse_id }}</span>
+                            <span class="score">Score: {{ "%.3f"|format(source.vector_score) }}</span>
+                        </div>
+                        <div class="source-meta">
+                            {% if source.organism %}<span>🧬 {{ source.organism }}</span>{% endif %}
+                            {% if source.tissue %}<span>🫀 {{ source.tissue }}</span>{% endif %}
+                            {% if source.assay_type %}<span>🔬 {{ source.assay_type }}</span>{% endif %}
+                        </div>
+                        <p class="source-text">{{ source.text[:200] }}...</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% endif %}
+            </div>
+            {% endif %}
+        </main>
+
+        <footer>
+            <p>Powered by <a href="https://qdrant.tech/cloud" target="_blank">Qdrant Cloud</a> & <a
+                    href="https://groq.com" target="_blank">Groq</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // Auto-scroll to bottom of messages
+        const messages = document.getElementById('messages');
+        if (messages) {
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        // Handle form submission with loading state
+        const form = document.getElementById('chatForm');
+        const sendBtn = document.getElementById('sendBtn');
+
+        form.addEventListener('submit', function () {
+            sendBtn.disabled = true;
+            sendBtn.innerHTML = '<span class="loading">Thinking...</span>';
+        });
+
+        // Focus input on load
+        document.getElementById('messageInput').focus();
+    </script>
+</body>
+
+</html>

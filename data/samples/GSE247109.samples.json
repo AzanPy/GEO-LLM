@@ -1,0 +1,92 @@
+{
+  "gse_id": "GSE247109",
+  "sample_summary": {
+    "total_samples": 6
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM7883477",
+      "title": "HTR8/SVneo cells，overexpressing Siglec-6_1",
+      "biological_metadata": {
+        "tissue": "trophoblast cell line",
+        "cell_line": "HTR8/SVneo cells",
+        "cell_type": "Human choriotrophoblast cells",
+        "genotype": "Siglec-6 overexpressing"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38123157",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22385647"
+      }
+    },
+    {
+      "gsm_id": "GSM7883478",
+      "title": "HTR8/SVneo cells，overexpressing Siglec-6_2",
+      "biological_metadata": {
+        "tissue": "trophoblast cell line",
+        "cell_line": "HTR8/SVneo cells",
+        "cell_type": "Human choriotrophoblast cells",
+        "genotype": "Siglec-6 overexpressing"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38123156",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22385648"
+      }
+    },
+    {
+      "gsm_id": "GSM7883479",
+      "title": "HTR8/SVneo cells，overexpressing Siglec-6_3",
+      "biological_metadata": {
+        "tissue": "trophoblast cell line",
+        "cell_line": "HTR8/SVneo cells",
+        "cell_type": "Human choriotrophoblast cells",
+        "genotype": "Siglec-6 overexpressing"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38123155",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22385649"
+      }
+    },
+    {
+      "gsm_id": "GSM7883480",
+      "title": "HTR8/SVneo cells，Nagative Control_1",
+      "biological_metadata": {
+        "tissue": "trophoblast cell line",
+        "cell_line": "HTR8/SVneo cells",
+        "cell_type": "Human choriotrophoblast cells",
+        "genotype": "NC"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38123154",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22385650"
+      }
+    },
+    {
+      "gsm_id": "GSM7883481",
+      "title": "HTR8/SVneo cells，Nagative Control_2",
+      "biological_metadata": {
+        "tissue": "trophoblast cell line",
+        "cell_line": "HTR8/SVneo cells",
+        "cell_type": "Human choriotrophoblast cells",
+        "genotype": "NC"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38123153",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22385651"
+      }
+    },
+    {
+      "gsm_id": "GSM7883482",
+      "title": "HTR8/SVneo cells，Nagative Control_3",
+      "biological_metadata": {
+        "tissue": "trophoblast cell line",
+        "cell_line": "HTR8/SVneo cells",
+        "cell_type": "Human choriotrophoblast cells",
+        "genotype": "NC"
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38123152",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22385652"
+      }
+    }
+  ]
+}

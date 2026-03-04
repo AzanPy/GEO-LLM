@@ -1,0 +1,31 @@
+{
+  "gse_id": "GSE249894",
+  "title": "Divergent Redox Responses of Macular and Peripheral M\u00fcller Glia: Implications for Retinal Vulnerability",
+  "organism": "Homo sapiens",
+  "study_summary": "The predilection of many conditions, such as macular telangiectasia type 2, for the human macula suggests it may be more susceptible to stress than the peripheral retina. In this study, we have comprehensively investigated the genetic profiling of the macula and peripheral retina in response to stress. We conducted single-cell RNA sequencing analysis on the macula and peripheral retina of four donors cultured ex vivo with or without exposure to light stress. We found that the peripheral retina generally exhibited more transcriptional changes than the macula in response to stress. Interestingly, the most pronounced changes were observed in a subgroup of M\u00fcller cells that are dominant in the peripheral retina. Genes more abundantly expressed in peripheral retinal M\u00fcller cells were mainly associated with stress responses and were more influenced by light stress. In contrast, genes that were highly expressed in M\u00fcller cells that predominate in the macula played roles in cellular function and were less influenced by light stress. We identified that Metallothionein 1 (MT1), A Kinase Anchor Protein 12 (AKAP12) and MAF BZIP Transcription Factor F (MafF) were more abundantly expressed in peripheral M\u00fcller cells than in macular M\u00fcller cells. We found that these genes were also activated in the mouse retina in the early stages of development of subretinal neovascularization. Knockdown of the MT1, AKAP12 and MafF genes in human primary M\u00fcller cells reduced cell viability in response to light stress and disrupted several stress response pathways. Taken together, our findings indicate that macular M\u00fcller cells are more directed toward maintaining retinal cell function rather than mounting a stress response when they are exposed to stress, which may contribute to the macula\u2019s vulnerability to degenerative disease.",
+  "experimental_design": {
+    "overall_design": "We set four experimental Groups (Exposed to Intense Light).Group 1: Macular neural retinas from left donor eyes exposed to intense light (LM).Group 2: Mid-peripheral neural retinas from left donor eyes exposed to intense light (LP).Control Groups (Exposed to Dim Light). Group 3: Macular neural retinas from right donor eyes exposed to dim light (CM). Group 4: Mid-peripheral neural retinas from right donor eyes exposed to dim light (CP. Duration of Light Exposure: All groups were exposed to their respective light conditions for 4 hours.",
+    "experimental_type": "Expression profiling by high throughput sequencing"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24676",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "treatment_protocol": "Macular and peripheral explants were dissociated into single cells following light  treatment. In brief,We employed a custom-built light exposure system situated within the tissue culture incubator to induce light stress in retinal explants.Light stress was accomplished by subjecting explants to intense light at 32k lux, while the control group were exposed to 5k lux light. Retinal explant tissues were placed on 12-well plate transwell inserts (#3460, Corning) with neurobasal medium (#21103049, Gibco), 2% B27 (#17504044, Gibco), 1% N2 (#17502048, Gibco), 1% fetal bovine serum (FBS, #F9423, Sigma\u2010Aldrich), 1% GlutaMax (#35050, Gibco), 1%ITS (#51500056, Gibco) and 1% penicillin-streptomycin (P/S, #P4333, Sigma\u2010Aldrich). Macular and peripheral neural retinal explants were exposed to light exposure for 4 hr.Single cell dissociation was achieved using the Papain Dissociation System (Worthington Biochem, NJ, USA) according to the manufacturer\u2019s protocol.",
+    "extraction_protocol": [
+      "Macular and peripheral explants were dissociated into single cells following light treatment using Papain Dissociation System (Worthington Biochem, NJ, USA) according to the manufacturer\u2019s protocol.Then The single-cell suspension was combined with barcoded gel beads in a microfluidic chip and run on the Chromium Controller (10X Genomics) to create gel bead-in-emulsion (GEMs) droplets (Chromium Next GEM Single Cell 3\u02b9 Kit v3.1, 16 rxns PN-1000268, 10\u00d7Genomics). The GEMs were incubated, enabling mRNA reverse transcription into cDNA.",
+      "The barcoded cDNA was then amplified using PCR to construct a library according to users guide of Chromium Single Cell 3\u02b9 Reagent Kits v3"
+    ]
+  },
+  "study_metadata": {
+    "status": "Public on Dec 01 2025",
+    "submission_date": "Dec 11 2023",
+    "last_update_date": "Dec 01 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1051102"
+  }
+}

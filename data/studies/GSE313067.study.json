@@ -1,0 +1,42 @@
+{
+  "gse_id": "GSE313067",
+  "title": "Single-cell heterogeneity in interferon induction potential is heritable and governed by variation in cell state II",
+  "organism": "Homo sapiens",
+  "study_summary": "Type I and III interferons (IFNs) are among the first lines of defense against viral infections, yet they are generally only produced by a tiny fraction of infected cells. Here, we show that variability in tonic cell signaling significantly influences cells\u2019 ability to produce IFN upon stimulation with the synthetic double-stranded RNA, polyinosinic:polycytidylic acid (pIC). Using single-cell approaches, we found that members of the activator protein (AP)-1 transcription factor were implicated in IFNL1 expression predisposition. This guided us to investigate the role of the mitogen-activated protein kinase (MAPK) pathway, specifically the c-Jun N-terminal kinase (JNK), in IFNL1 production. We found that inhibition of JNK signaling severely altered the nature of the innate antiviral response upon pIC stimulation, independently of the Janus kinase/signal transducer and activator of transcription (JAK/STAT) pathway. Together, our study emphasizes the influence of intrinsic stochasticity in cell state on heterogeneity in IFN expression.",
+  "experimental_design": {
+    "overall_design": "Bulk RNA-seq of A549 cells treated with ruxolitinib, JNK-IN-8, both inhibitors, or DMSO. Cells were pretreated with the inhibitors for 4 hours before either being treated with pIC or only lipofectamine.  The cells were then incubated for 16 hours then the RNA was extracted for sequencing.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "cell line"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL34284",
+    "instrument_model": "Illumina NovaSeq X Plus",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "A549 cells were maintained in DMEM supplemented with 8.3% fetal bovine serum in an incubator at 37\u2103 with 5%CO2",
+    "treatment_protocol": "A549 cells were treated with DMSO, JNK-IN-8, Ruxolitinib, or both inhibitors for 4 hours before being transfected with either 5 ng/mL pIC or just lipofectamine without pIC. The RNA was extracted 16 hours post pIC treatment.",
+    "extraction_protocol": [
+      "RNA was extracted with Rneasy Mini Kit (QIAGEN).",
+      "The libraries were prepared using Roche's Kapa Hyper Stranded mRNA library kit per the manufacturer's protocol. The libraries were pooled and sequencined on one 10B lane for 101 cycles from one end of the fragments on a NovaSeq X Plus with v1.0 sequencing kits."
+    ]
+  },
+  "data_processing": [
+    "Adaptors were trimmed from the 3'-end of the reads.",
+    "The fastq files were generated and demultiplexed using bcl-convert v4.1.7  Conversion Software (Illumina)",
+    "Reads were aligned using STAR/2.7.6a",
+    "Count matrix was made for each gene in each datafile then compiled into one count matrix for the entire experiment.",
+    "Assembly: NCBI GRCh38 with Ensembl99",
+    "Supplementary files format and content: tab-delimited textfile containing a full raw count matrix for all the samples (columns) and genes (rows)"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 13 2025",
+    "submission_date": "Dec 09 2025",
+    "last_update_date": "Dec 13 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1378209"
+  }
+}

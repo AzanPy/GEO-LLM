@@ -1,0 +1,43 @@
+{
+  "gse_id": "GSE306375",
+  "title": "Transcriptomic analysis of nanoceria treatment in light-induced retinal degeneration in rat",
+  "organism": "Rattus norvegicus",
+  "study_summary": "Retinal neurodegenerative diseases such as Age-related Macular Degeneration (AMD) and Retinitis Pigmentosa cause irreversible vision loss due to the limited regenerative capacity of the mammalian retina. Cerium oxide nanoparticles (nanoceria) are emerging therapeutics against oxidative stress and inflammation, major drivers of photoreceptor degeneration, but their mechanisms remain incompletely understood. We performed retinal transcriptomic analysis in a rat AMD model induced by high-intensity light and treated intravitreally with nanoceria. Six groups were analyzed: control, light damage, vehicle, nanoceria, vehicle + light damage, and nanoceria + light damage. Light damage activated inflammatory and apoptotic programs, with upregulation of cytokines (Tnf, Il6, Il1b, Ccl2) and downregulation of photoreceptor genes (Rho, Pde6a/b, Gnat1). Nanoceria treatment counteracted these effects, suppressing pro-inflammatory mediators, restoring antioxidative genes (Nfe2l2, Gclc, Sod2), and enhancing neuroprotective factors (Bdnf, Cntf, Ngf). Pathway analyses revealed inhibition of TNF/NF-\u03baB/IL-17 signaling and activation of PI3K-Akt, JAK-STAT, and neurotrophin pathways. Unexpectedly, nanoceria also modulated amino acid and insulin metabolism (Ass1, Cps1, Insr, Irs1, Slc2a4) and reactivated transcription factors (Ascl1, Sox2, Notch1) typically silent in adult retina. Our findings highlight nanoceria as a multifunctional therapeutic that mitigates retinal degeneration by coordinating oxidative, inflammatory, and regenerative responses, supporting its translational potential to preserve vision in retinal neurodegenerative disease.",
+  "experimental_design": {
+    "overall_design": "Six experimental groups were analyzed: control, light damage, vehicle, nanoceria, vehicle + light damage, and nanoceria + light damage (n = 6\u20137 animals per group). Retinal RNA-seq was performed on Rattus norvegicus (paired-end 150 bp, Illumina NovaSeq 6000). Differential expression and pathway analyses were conducted to assess the impact of nanoceria treatment.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "Retina"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL25947",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "polyA RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "Adult rats were housed under standard conditions (12 h light/dark cycle, temperature 22\u00b11\u00b0C, food and water ad libitum) until treatment.",
+    "treatment_protocol": "Light-induced retinal degeneration was induced by high-intensity light exposure (15,000 lux, 24 h). Rats were treated with intravitreal injection of cerium oxide nanoparticles (nanoceria, 1 mM) or vehicle. Control animals received no treatment.",
+    "extraction_protocol": [
+      "Retinas were rapidly dissected under RNase-free conditions. Total RNA was extracted using the Qiagen RNeasy Mini Kit, following manufacturer\u2019s instructions, including on-column DNase I treatment. RNA quality was assessed by Agilent Bioanalyzer; samples with RIN \u2265 7 were used.",
+      "RNA-seq libraries were prepared using the Watchmaker RNA Library Prep Kit (Twist Bioscience). Poly(A)-enriched mRNA was fragmented, reverse-transcribed, end-repaired, ligated to adapters, and PCR amplified according to manufacturer\u2019s protocol. Libraries were indexed and pooled for sequencing."
+    ]
+  },
+  "data_processing": [
+    "Raw reads were trimmed for adapter sequences and low-quality bases using Trimmomatic (v0.39).",
+    "High-quality reads were aligned to the Rattus norvegicus reference genome (rn6, Ensembl release XX) using STAR (v2.7.9a) with default parameters.",
+    "Aligned reads were assigned to genes using featureCounts (Subread v2.0.1).",
+    "Count matrices were normalized and analyzed for differential expression using DESeq2 (v1.30.1) in R (v4.0).",
+    "Pathway and gene ontology enrichment analyses were performed using clusterProfiler (v3.18).",
+    "Assembly: Rattus norvegicus (rn6)",
+    "Supplementary files format and content: count_matrix.csv: rows = genes, columns = samples; raw and normalized counts."
+  ],
+  "study_metadata": {
+    "status": "Public on Nov 17 2025",
+    "submission_date": "Aug 25 2025",
+    "last_update_date": "Nov 17 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1310547"
+  }
+}

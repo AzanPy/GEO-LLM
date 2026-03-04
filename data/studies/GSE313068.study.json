@@ -1,0 +1,44 @@
+{
+  "gse_id": "GSE313068",
+  "title": "Single-cell heterogeneity in interferon induction potential is heritable and governed by variation in cell state III",
+  "organism": "Homo sapiens",
+  "study_summary": "Type I and III interferons (IFNs) are among the first lines of defense against viral infections, yet they are generally only produced by a tiny fraction of infected cells. Here, we show that variability in tonic cell signaling significantly influences cells\u2019 ability to produce IFN upon stimulation with the synthetic double-stranded RNA, polyinosinic:polycytidylic acid (pIC). Using single-cell approaches, we found that members of the activator protein (AP)-1 transcription factor were implicated in IFNL1 expression predisposition. This guided us to investigate the role of the mitogen-activated protein kinase (MAPK) pathway, specifically the c-Jun N-terminal kinase (JNK), in IFNL1 production. We found that inhibition of JNK signaling severely altered the nature of the innate antiviral response upon pIC stimulation, independently of the Janus kinase/signal transducer and activator of transcription (JAK/STAT) pathway. Together, our study emphasizes the influence of intrinsic stochasticity in cell state on heterogeneity in IFN expression.",
+  "experimental_design": {
+    "overall_design": "scRNAseq data of A549 cells either untreated or treated with 5 ng/mL pIC for 4, 8, 12, or 16 hours before being collected and processed for fixed scRNA sequencing.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "cell line"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL34284",
+    "instrument_model": "Illumina NovaSeq X Plus",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic single cell",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "A549 cells were maintained in DMEM supplemented with 8.3% fetal bovine serum in an incubator at 37\u2103 with 5%CO2",
+    "treatment_protocol": "A549 cells were either untreated or transfected with 5 ng/mL pIC at varying time points in order to collect all the samples at once.",
+    "extraction_protocol": [
+      "The A549 cells were trypsinized then collected on ice before being transported to the sequencing facility to be further prepared using the Chromium Next GEM Single Cell FixedRNA Sample Preparation Kit.",
+      "The libraries were prepared using the Chromium Next GEM Single Cell FixedRNA Sample Preparation Kit for Human Transcriptome per the manufacturer's protocol. The libraries were sequenced on two 10B lanes with 28x150nt reads. Read1 is 28nt in length, Read2 is 150nt in length, I1 and I2 are 10nt in length."
+    ]
+  },
+  "data_processing": [
+    "The fastq files were generated and demultiplexed using bcl-convert v4.1.7  Conversion Software (Illumina)",
+    "The processed files were generated using the CellRanger/7.1.0 multi and aggr functions.",
+    "Assembly: NCBI GRCh38 with Ensembl99",
+    "Supplementary files format and content: CellRanger aggr output filtered_feature_bc_matrix output in HDF5 format",
+    "Supplementary files format and content: Supplementary file et02b04_feature_README.txt: additional sample characteristics and multiplexing probe barcodes",
+    "Supplementary files format and content: Supplementary file aggr_timepoints.csv: input configuration file for CellRanger aggr",
+    "Supplementary files format and content: Supplementary files pool1_input.csv, pool2_input.csv, pool3_input.csv: input configuration files for CellRanger multi",
+    "Supplementary files format and content: Supplementary file barcodes_umap_probabilities_info.csv: cell barcodes with their clusters, counts, ids, velocity score, umap positions, and probability scores for each terminal state"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 13 2025",
+    "submission_date": "Dec 09 2025",
+    "last_update_date": "Dec 13 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1378218"
+  }
+}

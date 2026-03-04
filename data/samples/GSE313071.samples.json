@@ -1,0 +1,488 @@
+{
+  "gse_id": "GSE313071",
+  "sample_summary": {
+    "total_samples": 24
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9360054",
+      "title": "Parental (WT), A549, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: WT_rep_1",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt.txt: wt_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831037",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410976"
+      },
+      "raw_extra_metadata": {
+        "clone": "WT"
+      }
+    },
+    {
+      "gsm_id": "GSM9360055",
+      "title": "Parental (WT), A549, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: WT_rep_2",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: wt_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831036",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410977"
+      },
+      "raw_extra_metadata": {
+        "clone": "WT"
+      }
+    },
+    {
+      "gsm_id": "GSM9360056",
+      "title": "Parental (WT), A549, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: WT_rep_3",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: wt_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831035",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410978"
+      },
+      "raw_extra_metadata": {
+        "clone": "WT"
+      }
+    },
+    {
+      "gsm_id": "GSM9360057",
+      "title": "ET1, A549, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_1_rep_1",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et1_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831034",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410979"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET1"
+      }
+    },
+    {
+      "gsm_id": "GSM9360058",
+      "title": "ET1, A549, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_1_rep_2",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et1_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831033",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410980"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET1"
+      }
+    },
+    {
+      "gsm_id": "GSM9360059",
+      "title": "ET1, A549, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_1_rep_3",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et1_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831032",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410981"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET1"
+      }
+    },
+    {
+      "gsm_id": "GSM9360060",
+      "title": "ET2, A549, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_2_rep_1",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et2_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831031",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410982"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET2"
+      }
+    },
+    {
+      "gsm_id": "GSM9360061",
+      "title": "ET2, A549, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_2_rep_2",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et2_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831030",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410983"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET2"
+      }
+    },
+    {
+      "gsm_id": "GSM9360062",
+      "title": "ET2, A549, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_2_rep_3",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et2_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831029",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410984"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET2"
+      }
+    },
+    {
+      "gsm_id": "GSM9360063",
+      "title": "ET3, A549, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_3_rep_1",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et3_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831028",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410985"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET3"
+      }
+    },
+    {
+      "gsm_id": "GSM9360064",
+      "title": "ET3, A549, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_3_rep_2",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et3_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831027",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410986"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET3"
+      }
+    },
+    {
+      "gsm_id": "GSM9360065",
+      "title": "ET3, A549, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_3_rep_3",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et3_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831026",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410987"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET3"
+      }
+    },
+    {
+      "gsm_id": "GSM9360066",
+      "title": "ET7, A549, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_7_rep_1",
+        "column name in et02b26_consensuscoverage_counts_annotations.txtt: et7_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831025",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410988"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET7"
+      }
+    },
+    {
+      "gsm_id": "GSM9360067",
+      "title": "ET7, A549, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_7_rep_2",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et7_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831024",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410989"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET7"
+      }
+    },
+    {
+      "gsm_id": "GSM9360068",
+      "title": "ET7, A549, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_7_rep_3",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et7_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831023",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410990"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET7"
+      }
+    },
+    {
+      "gsm_id": "GSM9360069",
+      "title": "ET8, A549, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_8_rep_1",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et8_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831022",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410991"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET8"
+      }
+    },
+    {
+      "gsm_id": "GSM9360070",
+      "title": "ET8, A549, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_8_rep_2",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et8_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831021",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410992"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET8"
+      }
+    },
+    {
+      "gsm_id": "GSM9360071",
+      "title": "ET8, A549, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_8_rep_3",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et8_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831020",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410993"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET8"
+      }
+    },
+    {
+      "gsm_id": "GSM9360072",
+      "title": "ET9, A549, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_9_rep_1",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et9_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831019",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410994"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET9"
+      }
+    },
+    {
+      "gsm_id": "GSM9360073",
+      "title": "ET9, A549, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_9_rep_2",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et9_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831018",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410995"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET9"
+      }
+    },
+    {
+      "gsm_id": "GSM9360074",
+      "title": "ET9, A549, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_9_rep_3",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et9_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831017",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410996"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET9"
+      }
+    },
+    {
+      "gsm_id": "GSM9360075",
+      "title": "ET10, A549, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_10_rep_1",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et10_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831016",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410997"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET10"
+      }
+    },
+    {
+      "gsm_id": "GSM9360076",
+      "title": "ET10, A549, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_10_rep_2",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et10_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831015",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410998"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET10"
+      }
+    },
+    {
+      "gsm_id": "GSM9360077",
+      "title": "ET10, A549, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "descriptions": [
+        "Library name: ET_10_rep_3",
+        "column name in et02b26_consensuscoverage_counts_annotations.txt: et10_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831014",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410999"
+      },
+      "raw_extra_metadata": {
+        "clone": "ET10"
+      }
+    }
+  ]
+}

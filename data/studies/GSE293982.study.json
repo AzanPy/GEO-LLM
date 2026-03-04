@@ -1,0 +1,45 @@
+{
+  "gse_id": "GSE293982",
+  "title": "Connecting cilium, stress response and proteostasis abnormalities inform variant and therapy assessment in RPGRIP1 retinal organoids [RNA-Seq]",
+  "organism": "Homo sapiens",
+  "study_summary": "RPGRIP1 encodes a connecting cilium (CC) protein essential for normal photoreceptor cell development and maintenance. Damaging variants in RPGRIP1 cause severe inherited retinal degeneration (IRD) and currently incurable vision loss, with mice studies showing promising preclinical gene augmentation therapy results. Almost one-half of variants in RPGRIP1 in the ClinVar database are variants of uncertain significance (VUS), hindering genetic diagnosis for affected individuals, and hence access to clinical trials of novel therapies and other management options. Here, we use human induced pluripotent stem cell (iPSC)-derived retinal organoids to model RPGRIP1-associated IRD, detecting biomarkers of disease including CC interactome dysfunction, stress response and proteostasis abnormalities. In parallel, utilising these novel disease biomarkers we demonstrate the pathogenicity of a missense VUS, RPGRIP1 c.2108 T>C p.(Ile703Thr). Finally, RPGRIP1 gene augmentation therapy rescued disease phenotypes, further supporting the utility of these biomarkers of RPGRIP1-LCA disease for reclassifying VUS and testing response to therapy.",
+  "experimental_design": {
+    "overall_design": "RNA seq profiling of wild type (Control-1) and RPGRIP1 variant (LCA-1 and MS-VUS)  retinal organoids performed in triplicate.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "model_system": "iPSC-derived retinal organoids",
+    "tissue": "Retinal organoids"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24676",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "Retinal organoids were differentiated from iPSCs as per protocol from Gonzalez-Cordero et al., Stem cell reports 9, 820-837 (2017) and West et  al., Stem cell reports 17, 775-788 (2022).",
+    "treatment_protocol": "No treatment was given to retinal organoids",
+    "extraction_protocol": [
+      "Total RNA was extracted from at least 3 retinal organoids pooled per sample using the QIAzol and RNeasy Micro kit (Qiagen). The yield and integrity were determined by Tapestation analysis (Agilent).",
+      "Library preparation with poly A selection (non-strand specific) (VAHTS\u00ae Universal V8 RNA-seq Library Prep Kit for Illumina) was performed by Azenta (Suzhou, China) as per manufacturer's protocol."
+    ]
+  },
+  "data_processing": [
+    "Starting with Illumina GA Pipeline v1.8 (currently v1.9), base quality scores range from 0 to 41.",
+    "Raw fastq files were quality checked by FastQC (version 0.11.9; https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)",
+    "Trimming of adapters and quality filtering were then performed by AdapterRemoval (version 2.3.2)",
+    "Trimmed and quality filtered paired-end reads were aligned to the human GRCh38 reference genome using STAR (version 2.7.9a) with default parameters.",
+    "Gene expression was quantified by counting the number of reads aligned to each Ensembl gene model using featureCounts (version 2.0.1).",
+    "The Trimmed Mean of M-values (TMM) normalisation method from edgeR package in R (version 3.36.0) was applied to normalise read counts.",
+    "Assembly: GRCh38",
+    "Supplementary files format and content: Tab-delimited text file includes raw counts for each sample."
+  ],
+  "study_metadata": {
+    "status": "Public on Nov 18 2025",
+    "submission_date": "Apr 07 2025",
+    "last_update_date": "Nov 18 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1247529"
+  }
+}

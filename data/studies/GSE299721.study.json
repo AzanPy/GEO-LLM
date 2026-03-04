@@ -1,0 +1,30 @@
+{
+  "gse_id": "GSE299721",
+  "title": "Severe preeclampsia is not associated with significant DNA methylation difference but cell proportion in cord blood",
+  "organism": "Homo sapiens",
+  "study_summary": "Preeclampsia (PE) is a severe pregnancy complication that threatens maternal and neonatal health and well-being. Previous studies on epigenome-wide association analysis (EWAS) of preeclampsia produced inconsistent results, and one possible explanation is their failure to rigorously adjust for confounders.\u00a0Here, we calculated the DNA methylation change in cord blood from newborns affected by preeclampsia, using a multi-ethnic cohort from Hawaii populations. We comprehensively adjusted confounders from clinical variables such as maternal age, BMI, parity and estimated the cell proportions, in hope of resolving the conflicting results of preeclampsia\u2019s impact on babies epigenetic-wide profile.We showed that after adjusting cell type proportions and patient clinical characteristics, most of the so-called significant CpG methylation changes associated with severe PE disappear. Rather, the major effect of severe PE on cord blood is through the proportion changes in CD8T and natural killer (NK) cell types. We validated such a lack of CpG methylation changes, using multiple previously published cord blood DNA methylation datasets. Moreover, we found that in additional to severe PE,  gestation progression is accompanied by significant proportion changes in several cell types, such as granulocyte, nRBC, CD8T, and B cells. In summary, our study shows that the previously reported significantly differentially methylated patterns are actually artifacts due to confounding of cell type heterogeneity and clinical factors such as gestational age. Severe preeclampsia is not associated with significant DNA methylation changes but cell proportion changes. This finding alerting the scientific rigor needed in EWAS.",
+  "experimental_design": {
+    "overall_design": "The umbilical cord whole blood DNA samples were obtained from Hawaii Biorepository (HiBR).\u00a0 The HiBR collected placenta, maternal, and cord blood samples from deliveries at Kapiolani Women and Children\u2019s Hospital from 2006 to 2013. Severe PE was characterized by OBGYNs at Kapiolani Medical Center as sustained pregnancy-induced hypertension(systolic/diastolic blood pressure >= 140/90) with urine protein and/or organ dysfunction. We originally collected 63 samples. The demographic and clinical information of the patients was collected and analyzed to identify any potential confounding effects.  Data usage was approved by IRB #CHS23976.",
+    "experimental_type": "Genome binding/occupancy profiling by genome tiling array",
+    "tissue": "Cord Blood"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL21145",
+    "molecule": "genomic DNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "DNA was extracted from prepared cord blood samples using AllPrep DNA/RNA/Protein Mini Kit (Qiagen, USA) according to the manufacturer\u2019s instructions by HiBR. We obtained pre-extracted genomic DNA of whole cord blood samples from the HiBR and conducted DNA Illumina EPIC Beadchip assays through the University of Hawaii Cancer Center Genomics Core."
+    ]
+  },
+  "data_processing": [
+    "Preprocessed, normalized, and batch removed with ChAMP (version  2.16.2) in R"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 05 2025",
+    "submission_date": "Jun 12 2025",
+    "last_update_date": "Dec 06 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1276132"
+  }
+}

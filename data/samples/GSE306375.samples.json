@@ -1,0 +1,764 @@
+{
+  "gse_id": "GSE306375",
+  "sample_summary": {
+    "total_samples": 42
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9198044",
+      "title": "Rat retina – Control (biol rep 1)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Control"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-Ctrl-1_S1",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774708",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228913"
+      }
+    },
+    {
+      "gsm_id": "GSM9198045",
+      "title": "Rat retina – Control (biol rep 2)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Control"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-Ctrl-2_S30",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774707",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228914"
+      }
+    },
+    {
+      "gsm_id": "GSM9198046",
+      "title": "Rat retina – Control (biol rep 3)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Control"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-Ctrl-3_S36",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774706",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228915"
+      }
+    },
+    {
+      "gsm_id": "GSM9198047",
+      "title": "Rat retina – Control (biol rep 4)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Control"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-Ctrl-4_S42",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774705",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228916"
+      }
+    },
+    {
+      "gsm_id": "GSM9198048",
+      "title": "Rat retina – Control (biol rep 5)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Control"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-Ctrl-5_S48",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774704",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228917"
+      }
+    },
+    {
+      "gsm_id": "GSM9198049",
+      "title": "Rat retina – Control (biol rep 6)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Control"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-Ctrl-6_S54",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774703",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228918"
+      }
+    },
+    {
+      "gsm_id": "GSM9198050",
+      "title": "Rat retina – Light damage (biol rep 1)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-LD-1_S2",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774702",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228919"
+      }
+    },
+    {
+      "gsm_id": "GSM9198051",
+      "title": "Rat retina – Light damage (biol rep 2)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-LD-2_S31",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774701",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228920"
+      }
+    },
+    {
+      "gsm_id": "GSM9198052",
+      "title": "Rat retina – Light damage (biol rep 3)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-LD-3_S37",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774700",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228921"
+      }
+    },
+    {
+      "gsm_id": "GSM9198053",
+      "title": "Rat retina – Light damage (biol rep 4)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-LD-4_S43",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774699",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228954"
+      }
+    },
+    {
+      "gsm_id": "GSM9198054",
+      "title": "Rat retina – Light damage (biol rep 5)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-LD-5_S49",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774698",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228922"
+      }
+    },
+    {
+      "gsm_id": "GSM9198055",
+      "title": "Rat retina – Light damage (biol rep 6)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-LD-6_S55",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774697",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228923"
+      }
+    },
+    {
+      "gsm_id": "GSM9198056",
+      "title": "Rat retina – Light damage (biol rep 7)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-LD-7_S61",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774696",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228924"
+      }
+    },
+    {
+      "gsm_id": "GSM9198057",
+      "title": "Rat retina – Nanoceria (biol rep 1)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-1_S5",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774695",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228925"
+      }
+    },
+    {
+      "gsm_id": "GSM9198058",
+      "title": "Rat retina – Nanoceria (biol rep 2)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-2_S34",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774694",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228926"
+      }
+    },
+    {
+      "gsm_id": "GSM9198059",
+      "title": "Rat retina – Nanoceria (biol rep 3)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-3_S40",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774693",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228927"
+      }
+    },
+    {
+      "gsm_id": "GSM9198060",
+      "title": "Rat retina – Nanoceria (biol rep 4)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-4_S46",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774692",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228928"
+      }
+    },
+    {
+      "gsm_id": "GSM9198061",
+      "title": "Rat retina – Nanoceria (biol rep 5)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-5_S52",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774691",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228929"
+      }
+    },
+    {
+      "gsm_id": "GSM9198062",
+      "title": "Rat retina – Nanoceria (biol rep 6)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-6_S58",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774690",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228930"
+      }
+    },
+    {
+      "gsm_id": "GSM9198063",
+      "title": "Rat retina – Vehicle (biol rep 1)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-1_S3",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774689",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228931"
+      }
+    },
+    {
+      "gsm_id": "GSM9198064",
+      "title": "Rat retina – Vehicle (biol rep 2)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-2_S32",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774688",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228932"
+      }
+    },
+    {
+      "gsm_id": "GSM9198065",
+      "title": "Rat retina – Vehicle (biol rep 3)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-3_S38",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774687",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228933"
+      }
+    },
+    {
+      "gsm_id": "GSM9198066",
+      "title": "Rat retina – Vehicle (biol rep 4)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-4_S44",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774686",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228934"
+      }
+    },
+    {
+      "gsm_id": "GSM9198067",
+      "title": "Rat retina – Vehicle (biol rep 5)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-5_S50",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774685",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228935"
+      }
+    },
+    {
+      "gsm_id": "GSM9198068",
+      "title": "Rat retina – Vehicle (biol rep 6)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-6_S56",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774684",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228936"
+      }
+    },
+    {
+      "gsm_id": "GSM9198069",
+      "title": "Rat retina – Vehicle (biol rep 7)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-7_S62",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774683",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228937"
+      }
+    },
+    {
+      "gsm_id": "GSM9198070",
+      "title": "Rat retina – Nanoceria + Light damage (biol rep 1)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-LD-1_S6",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774682",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228938"
+      }
+    },
+    {
+      "gsm_id": "GSM9198071",
+      "title": "Rat retina – Nanoceria + Light damage (biol rep 2)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-LD-2_S35",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774681",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228939"
+      }
+    },
+    {
+      "gsm_id": "GSM9198072",
+      "title": "Rat retina – Nanoceria + Light damage (biol rep 3)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-LD-3_S41",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774680",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228940"
+      }
+    },
+    {
+      "gsm_id": "GSM9198073",
+      "title": "Rat retina – Nanoceria + Light damage (biol rep 4)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-LD-4_S47",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774679",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228941"
+      }
+    },
+    {
+      "gsm_id": "GSM9198074",
+      "title": "Rat retina – Nanoceria + Light damage (biol rep 5)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-LD-5_S53",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774678",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228942"
+      }
+    },
+    {
+      "gsm_id": "GSM9198075",
+      "title": "Rat retina – Nanoceria + Light damage (biol rep 6)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-LD-6_S59",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774677",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228943"
+      }
+    },
+    {
+      "gsm_id": "GSM9198076",
+      "title": "Rat retina – Vehicle + Light damage (biol rep 1)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-LD-1_S4",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774676",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228944"
+      }
+    },
+    {
+      "gsm_id": "GSM9198077",
+      "title": "Rat retina – Vehicle + Light damage (biol rep 2)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-LD-2_S33",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774675",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228945"
+      }
+    },
+    {
+      "gsm_id": "GSM9198078",
+      "title": "Rat retina – Vehicle + Light damage (biol rep 3)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-LD-3_S39",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774674",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228946"
+      }
+    },
+    {
+      "gsm_id": "GSM9198079",
+      "title": "Rat retina – Vehicle + Light damage (biol rep 4)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-LD-4_S45",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774673",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228947"
+      }
+    },
+    {
+      "gsm_id": "GSM9198080",
+      "title": "Rat retina – Vehicle + Light damage (biol rep 5)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-LD-5_S51",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774672",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228948"
+      }
+    },
+    {
+      "gsm_id": "GSM9198081",
+      "title": "Rat retina – Vehicle + Light damage (biol rep 6)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle + Light damage"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-LD-6_S57",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774671",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228949"
+      }
+    },
+    {
+      "gsm_id": "GSM9198082",
+      "title": "Rat retina – Control (biol rep 7)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Control"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-Ctrl-7_S60",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774670",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228950"
+      }
+    },
+    {
+      "gsm_id": "GSM9198083",
+      "title": "Rat retina – Nano (biol rep 7)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-7_S64",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774669",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228951"
+      }
+    },
+    {
+      "gsm_id": "GSM9198084",
+      "title": "Rat retina – Nano-LD (biol rep 7)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Nanoceria LD"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-nano-LD-7_S65",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774668",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228952"
+      }
+    },
+    {
+      "gsm_id": "GSM9198085",
+      "title": "Rat retina – Vehicle-LD (biol rep 7)",
+      "biological_metadata": {
+        "tissue": "Retina"
+      },
+      "experimental_conditions": {
+        "treatment": "Vehicle LD"
+      },
+      "descriptions": [
+        "Library name: mRNA-RAT-veh-LD-7_S63",
+        "Rat retina RNA-Seq; polyA selection; paired-end 150 bp; four lanes (L001–L004)."
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN50774667",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX30228953"
+      }
+    }
+  ]
+}

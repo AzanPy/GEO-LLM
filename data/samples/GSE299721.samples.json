@@ -1,0 +1,628 @@
+{
+  "gse_id": "GSE299721",
+  "sample_summary": {
+    "total_samples": 62
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9044842",
+      "title": "5094",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044843",
+      "title": "7462",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044844",
+      "title": "4416",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044845",
+      "title": "5764",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044846",
+      "title": "6077",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044847",
+      "title": "6519",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044848",
+      "title": "6127",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044849",
+      "title": "3974",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044850",
+      "title": "4690",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044851",
+      "title": "3791",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044852",
+      "title": "927",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044853",
+      "title": "3728",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044854",
+      "title": "1423",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044855",
+      "title": "1604",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044856",
+      "title": "6449",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044857",
+      "title": "6770",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044858",
+      "title": "6461",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044859",
+      "title": "6780",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044860",
+      "title": "9064",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044861",
+      "title": "5567",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044862",
+      "title": "5579",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044863",
+      "title": "1142",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044864",
+      "title": "4039",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044865",
+      "title": "618",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044866",
+      "title": "6052",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044867",
+      "title": "4906",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044868",
+      "title": "9043",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044869",
+      "title": "5346",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044870",
+      "title": "7081",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044871",
+      "title": "5525",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044872",
+      "title": "7453",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044873",
+      "title": "7354",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044874",
+      "title": "4696",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044875",
+      "title": "702",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044876",
+      "title": "6598",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044877",
+      "title": "5258",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044878",
+      "title": "6680",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044879",
+      "title": "1657",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044880",
+      "title": "8870",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044881",
+      "title": "4217",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044882",
+      "title": "5323",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044883",
+      "title": "2282",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044884",
+      "title": "683",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044885",
+      "title": "4527",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044886",
+      "title": "1355",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044887",
+      "title": "4456",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044888",
+      "title": "7168",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044889",
+      "title": "3677",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044890",
+      "title": "1950",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044891",
+      "title": "7200",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044892",
+      "title": "6716",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044893",
+      "title": "2065",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044894",
+      "title": "6350",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044895",
+      "title": "7064",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044896",
+      "title": "7146",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044897",
+      "title": "7012",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044898",
+      "title": "8866",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044899",
+      "title": "1108",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044900",
+      "title": "1173",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044901",
+      "title": "1227",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    },
+    {
+      "gsm_id": "GSM9044902",
+      "title": "519",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Controls"
+      }
+    },
+    {
+      "gsm_id": "GSM9044903",
+      "title": "1352",
+      "biological_metadata": {
+        "tissue": "Cord Blood"
+      },
+      "experimental_conditions": {
+        "treatment": "Disease"
+      }
+    }
+  ]
+}

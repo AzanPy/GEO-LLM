@@ -1,0 +1,248 @@
+{
+  "gse_id": "GSE298665",
+  "sample_summary": {
+    "total_samples": 15
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9020519",
+      "title": "WT / 12965-SB-01",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "NA",
+        "genotype": "WT"
+      },
+      "descriptions": [
+        "Library name: 12965-SB-01"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860287",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022567"
+      }
+    },
+    {
+      "gsm_id": "GSM9020520",
+      "title": "WT / 12965-SB-02",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "NA",
+        "genotype": "WT"
+      },
+      "descriptions": [
+        "Library name: 12965-SB-02"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860286",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022568"
+      }
+    },
+    {
+      "gsm_id": "GSM9020521",
+      "title": "WT / 12965-SB-03",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "NA",
+        "genotype": "WT"
+      },
+      "descriptions": [
+        "Library name: 12965-SB-03"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860285",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022569"
+      }
+    },
+    {
+      "gsm_id": "GSM9020522",
+      "title": "Prom1_KO / 12965-SB-04",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "NA",
+        "genotype": "Prom1_KO"
+      },
+      "descriptions": [
+        "Library name: 12965-SB-04"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860284",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022570"
+      }
+    },
+    {
+      "gsm_id": "GSM9020523",
+      "title": "Prom1_KO / 12965-SB-05",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "NA",
+        "genotype": "Prom1_KO"
+      },
+      "descriptions": [
+        "Library name: 12965-SB-05"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860283",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022571"
+      }
+    },
+    {
+      "gsm_id": "GSM9020524",
+      "title": "Prom1_KO / 12965-SB-06",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "NA",
+        "genotype": "Prom1_KO"
+      },
+      "descriptions": [
+        "Library name: 12965-SB-06"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860282",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022572"
+      }
+    },
+    {
+      "gsm_id": "GSM9020525",
+      "title": "WT / 8995-SB-1",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE WT",
+        "genotype": "WT"
+      },
+      "descriptions": [
+        "Library name: 8995-SB-1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860281",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022573"
+      }
+    },
+    {
+      "gsm_id": "GSM9020526",
+      "title": "Prom1_KO / 8995-SB-2",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE Prom1KO 22",
+        "genotype": "Prom1_KO"
+      },
+      "descriptions": [
+        "Library name: 8995-SB-2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860280",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022574"
+      }
+    },
+    {
+      "gsm_id": "GSM9020527",
+      "title": "Prom1_KO / 8995-SB-3",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE Prom1KO 26",
+        "genotype": "Prom1_KO"
+      },
+      "descriptions": [
+        "Library name: 8995-SB-3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860279",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022575"
+      }
+    },
+    {
+      "gsm_id": "GSM9020528",
+      "title": "WT / 9262-SB-1",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE WT",
+        "genotype": "WT"
+      },
+      "descriptions": [
+        "Library name: 9262-SB-1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860278",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022576"
+      }
+    },
+    {
+      "gsm_id": "GSM9020529",
+      "title": "WT / 9262-SB-2",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE WT",
+        "genotype": "WT"
+      },
+      "descriptions": [
+        "Library name: 9262-SB-2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860277",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022577"
+      }
+    },
+    {
+      "gsm_id": "GSM9020530",
+      "title": "WT / 9262-SB-3",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE WT",
+        "genotype": "WT"
+      },
+      "descriptions": [
+        "Library name: 9262-SB-3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860276",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022578"
+      }
+    },
+    {
+      "gsm_id": "GSM9020531",
+      "title": "Prom1_KO / 9262-SB-4",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE Prom1KO 22",
+        "genotype": "Prom1_KO"
+      },
+      "descriptions": [
+        "Library name: 9262-SB-4"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860275",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022579"
+      }
+    },
+    {
+      "gsm_id": "GSM9020532",
+      "title": "Prom1_KO / 9262-SB-5",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE Prom1KO 22",
+        "genotype": "Prom1_KO"
+      },
+      "descriptions": [
+        "Library name: 9262-SB-5"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860274",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022580"
+      }
+    },
+    {
+      "gsm_id": "GSM9020533",
+      "title": "Prom1_KO / 9262-SB-6",
+      "biological_metadata": {
+        "tissue": "mouse retinal pigment epithelium (RPE)",
+        "cell_line": "mRPE Prom1KO 26",
+        "genotype": "Prom1_KO"
+      },
+      "descriptions": [
+        "Library name: 9262-SB-6"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48860273",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29022581"
+      }
+    }
+  ]
+}

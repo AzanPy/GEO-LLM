@@ -1,0 +1,44 @@
+{
+  "gse_id": "GSE247109",
+  "title": "Upregulation of Siglec-6 induces mitochondrial dysfunction by promoting GPR20 expression in early-onset preeclampsia",
+  "organism": "Homo sapiens",
+  "study_summary": "Preeclampsia (PE) is a pregnancy complication that seriously threatens maternal and fetal health, but its pathogenesis is unclear. A growing number of studies have revealed significant changes in the mitochondria of placental trophoblasts in PE, with abnormalities in mitochondrial content, morphology, and function, but the regulatory mechanisms are not clear. Siglec-6 belongs to the family of sialic acid-binding immunoglobulin-like lectins (Siglecs), and studies have demonstrated that the Siglecs family is capable of modulating the oxidative phosphorylation and energy metabolism of mitochondria. Our study revealed that Siglec-6, which is mainly localized in syncytiotrophoblasts (STB) and extravillous trophoblast (EVT), is abnormally up-regulated in EVT in early-onset PE (EO-PE). Siglec-6 inhibited trophoblast migration, invasion, and impaired mitochondrial function. Mechanistic studies revealed that Siglec-6 inhibits NF-\u03baB activation by recruiting SHP1/SHP2, leading to an increase in GPR20 expression, which further suppresses the downstream c-AMP/PKA/ERK signaling pathway and causes mitochondrial dysfunction in trophoblast cells. Placenta-specific overexpression of Siglec-6 in an animal model causes impaired placental structure and vessel formation, leading to a PE-like phenotype in mice. We conclude that trophoblast upregulated Siglec-6 induced trophoblast mitochondrial dysfunction through the SHP1/SHP2-NF-\u03baB-GPR20 signaling pathway, leading to diminished trophoblast migration, invasion, and ultimately mediating the development of PE. Our study provides new ideas for the pathogenesis of PE and may provide new targets for the prevention or treatment of PE.",
+  "experimental_design": {
+    "overall_design": "Comparative gene expressing profiling analysis of RNA-seq data for HTR8/SVneo cells overexpressing Siglec-6 and nagative control.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "trophoblast cell line"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL16791",
+    "instrument_model": "Illumina HiSeq 2500",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "The HTR-8/SVneo cells were cultured in DMEM/F12 medium  that contained 10% fetal bovine serum ,100 \u03bcg/ml streptomycin and 100 U/ml penicillin at 37\u2103 in a humidified 5% CO2 incubator.",
+    "treatment_protocol": "Overexpression Siglec-6 was achieved by transfection of the pHBLV-CMV-MCS-EF1-ZsGreen1-T2A-puro (HANBIO Shanghai, China), and an empty vector was designed as a negative control . 48 h post-transfection cells were selected using 1 \u00b5g/mL puromycin.",
+    "extraction_protocol": [
+      "Total RNA was extracted using the mirVana miRNA Isolation Kit (Ambion) following the manufacturer\u2019s protocol.1.3ug of total RNA was used for the construction of sequencing libraries",
+      "RNA libraries for RNA-seq were prepared using smarter mRNA-seq library prep kit following protocols."
+    ]
+  },
+  "data_processing": [
+    "Raw data (raw reads) were processed using Trimmomatic 1 The reads containing ploy N and the low quality reads were removed to obtain the clean reads Then the clean reads were mapped to reference genome using hisat 2.",
+    "FPKM value of each gene was calculated using cufflinks ,and the read counts of each gene were obtained by htseq count . DEGs were identified using the DESeq ( 2012 )R package functions estimateSizeFactors and nbinomTest. Pvalue \uff1c0.05 and foldChange \uff1e2 or foldChange\uff1c 0.5 was set as the threshold for significantly differential expression. Hierarchical cluster analysis of DEGs was performed to explore genes expression pattern. GO enrichment and KEGG 7 pathway enrichment analysis of DEGs were respectively performed using R based on the hypergeometric distribution.",
+    "If it was transcript-level quantification, FPKM  and read counts value of each transcript (protein_coding) was calculated using bowtie 2  and eXpress . DEGs were identified using the DESeq ( 2012) functions estimateSizeFactors and nbinomTest. P value \uff1c0.05 and foldChange \uff1e2 or foldChange \uff1c0.5 was set as the threshold for significantly differential expression. Hierarchical cluster analysis of DEGs was performed to explore transcripts expression pattern. GO enrichment and KEGG  pathway enrichment analysis of DEGs were respectively performed using R based on the hypergeometric distribution.",
+    "The reads were reassembled using StringTie. Then gene structure extension and novel transcripts identification were performed by comparing the reference genome and the known annotated genes using cuffcompare software.",
+    "The alternatively splicing analysis of differentially regulated transcripts isoforms or exons was performed using Asprofile. SNP and INDEL were called using samtools and bcftools.",
+    "Assembly: mm10",
+    "Supplementary files format and content: tab-delimited text file includes raw counts for each Sample",
+    "Supplementary files format and content: tab-delimited text file includes RPKM value for all Sample"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 31 2025",
+    "submission_date": "Nov 06 2023",
+    "last_update_date": "Dec 31 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1036233"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "gse_id": "GSE288573",
+  "title": "Cigarette smoke and biological age induce degenerative heterogeneity in retinal pigment epithelium",
+  "organism": "Mus musculus",
+  "study_summary": "Environmental exposure such as cigarette smoke induces epigenetic changes that can induce degenerative heterogeneity and accelerate aging. In early age-related macular degeneration (AMD), the leading worldwide cause of blindness among the elderly, retinal pigment epithelial (RPE) cell heterogeneity is a key change. Since smoking is the strongest environmental risk factor for AMD, we hypothesized that cigarette smoke induces degenerative RPE heterogeneity through epigenetic changes that are distinct from aging, and that with aging, the RPE becomes vulnerable to cigarette smoke insult. We administered cigarette smoke condensate (CSC) intravitreally to young and aged mice and performed snRNA-seq and snATAC-seq on the RPE/choroid. This analysis identified separate cell clusters corresponding to healthy and abnormal, dedifferentiated RPE in both aged vehicletreated and young CSC-treated mice. The dedifferentiated RPE were characterized by a global decrease in chromatin accessibility and decreased expression of genes in functional categories that were linked to hallmarks of aging. Notably, young, dedifferentiated RPE also exhibited a compensatory upregulation of hallmarks of aging-related genes, specifically those related to mitochondrial function and proteostasis. In contrast, aged dedifferentiated RPE did not express these compensatory changes, and did not survive CSC treatment, as experimentally verified with TUNEL labeling. These changes are relevant to early AMD because we identified through scRNA-seq, similar dedifferentiated and healthy macular RPE clusters in a donor who smoked and another with early AMD, but not from a nonsmoker. Degenerative cellular heterogeneity can include an abnormal cluster that jeopardizes cell survival and may represent an additional hallmark of ocular aging.",
+  "experimental_design": {
+    "overall_design": "C56BL/6J mice that were free of the Rd8 mutation (Jackson Labs, Bar Harbor, ME) were given water ad libitum and kept in a 12-hr light\u201312-hr dark cycle. For experiments, an equal number of male and female mice aged either 3- or 12-months old were given an IVT injection of 250 \u03bcg/ml CSC in 1 \u03bcl (Murty Pharmaceuticals, Inc. Lexington, KY) or an equal volume (1 \u03bcl) of vehicle (DMSO) in both eyes using a microinjection pump (Harvard Apparatus, Holliston, MA, USA) on day 1 and day 3.",
+    "experimental_type": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+    "tissue": "Eye"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24247",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "Experiments were in accordance with NIH guidelines and approved by the Johns Hopkins Animal Care and Use Committee. C56BL/6J mice that were free of the Rd8 mutation (Jackson Labs, Bar Harbor, ME) were given water ad libitum and kept in a 12-hr light\u201312-hr dark cycle.",
+    "treatment_protocol": "For experiments, an equal number of male and female mice aged either 3- or 12-months old were given an IVT injection of 250 \u03bcg/ml CSC in 1 \u03bcl (Murty Pharmaceuticals, Inc. Lexington, KY) or an equal volume (1 \u03bcl) of vehicle (DMSO) in both eyes using a microinjection pump (Harvard Apparatus, Holliston, MA, USA) on day 1 and day 3.",
+    "extraction_protocol": [
+      "At 3, 6, and 10 days following the first injection, mice were sacrificed, and their eyes are enucleated. RPE/choroidal cells were scraped from the posterior eye cup and placed in cold 1ml 1X Dulbecco\u2019s PBS. The nuclei from RPE/choroid (3 eyes from male and 3 eyes from female mice per condition) was prepared using the 10X Genomics \u201cNuclei Isolation Singh et al. 18 from Complex Tissues for Single Cell Multiome ATAC + Gene Expression Sequencing\u201d (10X Genomics, Inc., Pleasanton, CA) protocol. The RPE/choroid was centrifuged for 5 min with 500g at 40C. The pellet was resuspended in 500ml of 0.1X Lysis buffer (10 mM Tris-HCl, pH 7.4,10 mM NaCl, 3 mM MgCl2, 0.1% Tween 20,0.1 % Nonidet P40,0.01 % Digitonin,1% BSA,1 mM DTT, RNase inhibitor 1 U/ml) and incubated for 5 min on ice, washed, and passed through a 70 \u03bcm Flowmi Cell Strainer followed by 40 \u03bcm Flowmi Cell Strainer, and centrifuged at 500 g for 5 min at 40C. The resulting pellet was washed and resuspended in 0.1X Nuclei buffer containing trypan blue, and nuclei were counted with a Neubauer chamber. The obtained nuclei number were in the range of ~2700 to 10000 nuclei/ml.",
+      "SnRNA-seq and snATAC-seq libraries were generated using the Chromium Next GEM single Multiome ATAC+Gene Expression kit protocol (10X Genomics, Inc.). Nuclei resuspended (10-15k) in 0.1X Nuclei Buffer were incubated with a transposition mix containing transposase. Gel Beads in Emulsion (GEMs) were generated by mixing transposed nuclei, barcoded Gel Beads, and partitioning oil on a chromium NEXT GEM Chip controller. After GEM generation, oligonucleotides included Illumina\u00ae P5 sequence barcodes for ATAC library and cDNA included an Illumina\u00ae TruSeq Read 1 (read 1 sequencing primer), 16 nt 10x Barcode (for GEX), 12 nt unique molecular identifier (UMI) and a 30 nt poly(dT) sequence. Magnetic beads (SILANE) were used to clean up barcoded products from the obtained GEM-RT reaction mixture. ATAC libraries were amplified with 10 PCR cycles and were sequenced on Illumina NovaSeq with 25,000 read pairs per nucleus. RNA libraries were amplified from cDNA with 14 PCR cycles and were sequenced on Illumina NovaSeq with 50,000 reads per nucleus."
+    ]
+  },
+  "data_processing": [
+    "snRNA-seq samples were analyzed using R package Seurat v4.1.4108.All snATAC-seq samples were analyzed using Seurat v4.1.4108 and Signac v1.10.0111 packages follow the standard pipeline.",
+    "Assembly: GRCm38",
+    "Supplementary files format and content: Cell Ranger software output files (barcodes.tsv, features.tsv, matrix.mtx)"
+  ],
+  "study_metadata": {
+    "status": "Public on Jan 03 2026",
+    "submission_date": "Feb 02 2025",
+    "last_update_date": "Jan 03 2026"
+  }
+}

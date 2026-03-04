@@ -1,0 +1,1302 @@
+{
+  "gse_id": "GSE254513",
+  "sample_summary": {
+    "total_samples": 42
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM8045347",
+      "title": "Unsorted Patient A (CG); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661159",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439725"
+      }
+    },
+    {
+      "gsm_id": "GSM8045348",
+      "title": "CD45+ sorted, Patient A (CG); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661158",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439726"
+      }
+    },
+    {
+      "gsm_id": "GSM8045349",
+      "title": "Unsorted Healthy 1 (control); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661157",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439732"
+      }
+    },
+    {
+      "gsm_id": "GSM8045350",
+      "title": "CD45+ sorted, Healthy 1 (control); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661156",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439733"
+      }
+    },
+    {
+      "gsm_id": "GSM8045351",
+      "title": "Unsorted Healthy 2 (control); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661155",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439734"
+      }
+    },
+    {
+      "gsm_id": "GSM8045352",
+      "title": "CD45+ sorted, Healthy 2 (control); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661154",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439735"
+      }
+    },
+    {
+      "gsm_id": "GSM8045353",
+      "title": "Unsorted Healthy 3 (control); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661153",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439736"
+      }
+    },
+    {
+      "gsm_id": "GSM8045354",
+      "title": "CD45+ sorted, Healthy 3 (control); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661152",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439737"
+      }
+    },
+    {
+      "gsm_id": "GSM8045355",
+      "title": "CD45+ sorted, Patient A (CG) Post Steroids; frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "experimental_conditions": {
+        "treatment": "Steroids"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661151",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439738"
+      }
+    },
+    {
+      "gsm_id": "GSM8045356",
+      "title": "CD45+ sorted, Patient B (CG); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661150",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439739"
+      }
+    },
+    {
+      "gsm_id": "GSM8045357",
+      "title": "CD45+ sorted, Patient C (CG); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661149",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439740"
+      }
+    },
+    {
+      "gsm_id": "GSM8045358",
+      "title": "CD45+ sorted, Patient D (CG); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661148",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439741"
+      }
+    },
+    {
+      "gsm_id": "GSM8045359",
+      "title": "Unsorted Patient D (CG); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661147",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439742"
+      }
+    },
+    {
+      "gsm_id": "GSM8045360",
+      "title": "CD45+ sorted, Patient A (CG); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661146",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439743"
+      }
+    },
+    {
+      "gsm_id": "GSM8045361",
+      "title": "CD45+ sorted, Healthy 1 (control); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661145",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439744"
+      }
+    },
+    {
+      "gsm_id": "GSM8045362",
+      "title": "CD45+ sorted, Healthy 2 (control); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661144",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439745"
+      }
+    },
+    {
+      "gsm_id": "GSM8045363",
+      "title": "CD45+ sorted, Healthy 3 (control); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661143",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439727"
+      }
+    },
+    {
+      "gsm_id": "GSM8045364",
+      "title": "CD45+ sorted, Patient A (CG) Post Steroids; frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "experimental_conditions": {
+        "treatment": "Steroids"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661142",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439728"
+      }
+    },
+    {
+      "gsm_id": "GSM8045365",
+      "title": "CD45+ sorted, Patient B (CG); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661141",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439729"
+      }
+    },
+    {
+      "gsm_id": "GSM8045366",
+      "title": "CD45+ sorted, Patient C (CG); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661140",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439730"
+      }
+    },
+    {
+      "gsm_id": "GSM8045367",
+      "title": "CD45+ sorted, Patient D (CG); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "specimen": "Biopsy",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39661139",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23439731"
+      }
+    },
+    {
+      "gsm_id": "GSM8653333",
+      "title": "Unsorted Patient D (CG) biopsy #2; fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: D2-total-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069382",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889181"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653334",
+      "title": "CD45+ sorted, Patient D (CG) biopsy #2; frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: D2-CD45-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069381",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889182"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653335",
+      "title": "Unsorted Patient E (CG); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: CG-E-total-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069380",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889183"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653336",
+      "title": "CD45+ sorted, Patient E (CG); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: CG-E-CD45-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069379",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889184"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653337",
+      "title": "Unsorted Patient F (CG); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: CG-F-total-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069378",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889185"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653338",
+      "title": "CD45+ sorted, Patient F (CG); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: CG-F-CD45-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069377",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889186"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653339",
+      "title": "Unsorted Patient G (CG); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: Fresh4-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069376",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889187"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653340",
+      "title": "CD45+ sorted, Patient G (CG); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: Frozen4-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069375",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889188"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653341",
+      "title": "Unsorted Healthy 4 (control); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: Fresh1-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069374",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889189"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653342",
+      "title": "CD45+ sorted, Healthy 4 (control); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: Frozen1213-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069373",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889190"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653343",
+      "title": "Unsorted Healthy 5 (control); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: Fresh2-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069372",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889191"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653344",
+      "title": "CD45+ sorted, Healthy 5 (control); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: Frozen1214-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069371",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889192"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653345",
+      "title": "Unsorted Healthy 6 (control); fresh",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: Fresh3-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069370",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889193"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653346",
+      "title": "CD45+ sorted, Healthy 6 (control); frozen",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters"
+        ]
+      },
+      "descriptions": [
+        "Library name: Frozen3-GEX"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069369",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889194"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653347",
+      "title": "CD45+ sorted, Patient D (CG) biopsy #2; frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters",
+          "Library strategy: scTCR-Seq"
+        ]
+      },
+      "descriptions": [
+        "Library name: D2-CD45-TCR"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069368",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889195"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653348",
+      "title": "CD45+ sorted, Patient E (CG); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters",
+          "Library strategy: scTCR-Seq"
+        ]
+      },
+      "descriptions": [
+        "Library name: CG-E-CD45-TCR"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069367",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889196"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653349",
+      "title": "CD45+ sorted, Patient F (CG); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters",
+          "Library strategy: scTCR-Seq"
+        ]
+      },
+      "descriptions": [
+        "Library name: CG-F-CD45-TCR"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069366",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889197"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653350",
+      "title": "CD45+ sorted, Patient G (CG); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "CG"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters",
+          "Library strategy: scTCR-Seq"
+        ]
+      },
+      "descriptions": [
+        "Library name: Frozen4-VDJ"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069365",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889198"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653351",
+      "title": "CD45+ sorted, Healthy 4 (control); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters",
+          "Library strategy: scTCR-Seq"
+        ]
+      },
+      "descriptions": [
+        "Library name: Frozen1213-VDJ"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069364",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889199"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653352",
+      "title": "CD45+ sorted, Healthy 5 (control); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters",
+          "Library strategy: scTCR-Seq"
+        ]
+      },
+      "descriptions": [
+        "Library name: Frozen1214-VDJ"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069363",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889200"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    },
+    {
+      "gsm_id": "GSM8653353",
+      "title": "CD45+ sorted, Healthy 6 (control); frozen. TCR library",
+      "biological_metadata": {
+        "tissue": "Stomach (fundus)",
+        "disease": "Healthy"
+      },
+      "technical_metadata": {
+        "library_strategy": "OTHER",
+        "library_source": "transcriptomic",
+        "library_selection": "other",
+        "data_processing": [
+          "Cellranger v7.0.0 was used to align and count FASTQ reads (including aligning TCR sequences using cellranger multi)",
+          "The count matrices were imported for downstream analysis into R using the Seurat (v4.3.0) package. Cells were called from barcodes using the Seurat R package",
+          "Count normalization, integration, and clustering was performed using Seurat",
+          "Assembly: GRCh38",
+          "Assembly: cellranger-vdj-GRCh38-alts-ensembl-7.1.0 (downloaded from 10x Genomics website)",
+          "Supplementary files format and content: CG_raw_feature_bc_matrix.tar: Tar file of count/feature matrices (raw_feature_bc_matrix) output from Cellranger",
+          "Supplementary files format and content: TCR_contigs.tar: Tar of raw TCR alignments (all_contig_annotations) output from Cellranger",
+          "Supplementary files format and content: CG_Seurat_metadata.csv: Comma-separated values of Seurat object metadata with cell annotations/clusters",
+          "Library strategy: scTCR-Seq"
+        ]
+      },
+      "descriptions": [
+        "Library name: Frozen3-VDJ"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN45069362",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX26889201"
+      },
+      "raw_extra_metadata": {
+        "type": "Biopsy"
+      }
+    }
+  ]
+}

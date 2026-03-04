@@ -1,0 +1,59 @@
+{
+  "gse_id": "GSE298119",
+  "sample_summary": {
+    "total_samples": 3
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9008678",
+      "title": "PE002",
+      "biological_metadata": {
+        "tissue": "placenta"
+      },
+      "descriptions": [
+        "Library name: PE002"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48784679",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28967107"
+      },
+      "raw_extra_metadata": {
+        "subject_status": "preeclamptic case"
+      }
+    },
+    {
+      "gsm_id": "GSM9008679",
+      "title": "PE003",
+      "biological_metadata": {
+        "tissue": "placenta"
+      },
+      "descriptions": [
+        "Library name: PE003"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48784678",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28967108"
+      },
+      "raw_extra_metadata": {
+        "subject_status": "preeclamptic case"
+      }
+    },
+    {
+      "gsm_id": "GSM9008680",
+      "title": "CTL2",
+      "biological_metadata": {
+        "tissue": "placenta"
+      },
+      "descriptions": [
+        "Library name: CTL2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48784677",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28967109"
+      },
+      "raw_extra_metadata": {
+        "subject_status": "normotensive control"
+      }
+    }
+  ]
+}

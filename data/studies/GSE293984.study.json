@@ -1,0 +1,41 @@
+{
+  "gse_id": "GSE293984",
+  "title": "Connecting cilium, stress response and proteostasis abnormalities inform variant and therapy assessment in RPGRIP1 retinal organoid [scRNA-seq]",
+  "organism": "Homo sapiens",
+  "study_summary": "RPGRIP1 encodes a connecting cilium (CC) protein essential for normal photoreceptor cell development and maintenance. Damaging variants in RPGRIP1 cause severe inherited retinal degeneration (IRD) and currently incurable vision loss, with mice studies showing promising preclinical gene augmentation therapy results. Almost one-half of variants in RPGRIP1 in the ClinVar database are variants of uncertain significance (VUS), hindering genetic diagnosis for affected individuals, and hence access to clinical trials of novel therapies and other management options. Here, we use human induced pluripotent stem cell (iPSC)-derived retinal organoids to model RPGRIP1-associated IRD, detecting biomarkers of disease including CC interactome dysfunction, stress response and proteostasis abnormalities. In parallel, utilising these novel disease biomarkers we demonstrate the pathogenicity of a missense VUS, RPGRIP1 c.2108 T>C p.(Ile703Thr). Finally, RPGRIP1 gene augmentation therapy rescued disease phenotypes, further supporting the utility of these biomarkers of RPGRIP1-LCA disease for reclassifying VUS and testing response to therapy.",
+  "experimental_design": {
+    "overall_design": "scRNA-seq profiling of wild type (Control-1) and RPGRIP1 variant (LCA-1 and MS-VUS) retinal organoids performed with replicates.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "model_system": "iPSC-derived retinal organoids",
+    "tissue": "Retinal organoid"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24676",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic single cell",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "Retinal organoids were differentiated from iPSCs as per protocol from Gonzalez-Cordero et al., Stem cell reports 9, 820-837 (2017) and West et  al., Stem cell reports 17, 775-788 (2022).",
+    "treatment_protocol": "No treatment was given to retinal organoids",
+    "extraction_protocol": [
+      "Retinal organoids were dissociated into single cells using the Neurosphere Dissociation Kit (P) (Miltenyi Biotec), as per manufacturer\u2019s protocol and processed by 10X Chromium Single Cell 3' Gene Expression - 1 reaction provided to the Single Cell Analytics Facility at CMRI for portioning into single cells and library construction using the Chromium Next GEM Single cell 3\u2019 kit (10x Genomics).",
+      "Library was performed accroding to the manufacturer's protocol for the 10X Genomics Chromium Single Cell 3' Gel Bead and Library kit (v3.1) at one reaction per retinal organoids single cell suspension (10,000 cells input)."
+    ]
+  },
+  "data_processing": [
+    "Basecalling is performed by Illumina RTA software in sequencer, further demultiplexing is performed by Illumina bcl2fastq 2.17 software based on index information, the number of reads and quality score(Q30) are counted as well.",
+    "Sequencing data were processed using CellRanger v3.1 (10x Genomics) with default parameters to extract genomic reads which were aligned against annotated human genome, including the protein and non-coding transcripts (GRCh38, GENCODE v27). The reads with the same cell barcode and unique molecular identifier were collapsed to a unique transcript, generating the count matrix where columns correspond to single cells and rows correspond to transcripts. To remove potentially empty droplets with ambient RNA, the emptyDrops function from the DropletUtils package was used.",
+    "Assembly: GRCh38, GENCODE v27",
+    "Supplementary files format and content: Tab-separated values files and matrix files"
+  ],
+  "study_metadata": {
+    "status": "Public on Nov 18 2025",
+    "submission_date": "Apr 07 2025",
+    "last_update_date": "Nov 19 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1247528"
+  }
+}

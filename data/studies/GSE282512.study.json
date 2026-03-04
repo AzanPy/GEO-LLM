@@ -1,0 +1,40 @@
+{
+  "gse_id": "GSE282512",
+  "title": "Advancing diagnosis and early risk assessment of preeclampsia through non-invasive cell-free DNA methylation profiling",
+  "organism": "Homo sapiens",
+  "study_summary": "Aberrant embryo implantation and suboptimal placentation can lead to (severe) complications such as preeclampsia and fetal growth restriction later in pregnancy. Current identification of high-risk pregnancies relies on a combination of risk factors, biomarkers, and ultrasound examinations, a relatively inaccurate approach. Previously, aberrant DNA methylation due to placental hypoxia has been identified as a potential marker of placental insufficiency and, hence, potential (future) pregnancy complications. The goal of the Early Prediction of prEgnancy Complications Testing, or the ExPECT study, is to validate a genome-wide, cell-free DNA (cfDNA) methylation strategy to diagnose preeclampsia accurately. More importantly, the predictive potential of this strategy is also explored to reliably identify high-risk pregnancies early in gestation. Furthermore, a longitudinal study was conducted, including sequential blood samples from pregnant individuals experiencing both uneventful and complicated gestations, to assess the methylation dynamics of cfDNA throughout these pregnancies. This study offers valuable insights into methylation changes at specific genomic regions throughout pregnancy, revealing critical differences between normal and complicated pregnancies. The power of non-invasive cfDNA methylation profiling was successfully proven, suggesting the potential to integrate this non-invasive approach into routine prenatal care. A significant strength of this study is its enzymatic digest, which enriches CpG-rich regions across the genome without the need for proprietary reagents or prior selection of regions of interest. This makes it useful for the cost-effective discovery of novel markers. Investigation of methylation patterns throughout pregnancy showed different methylation trends between unaffected and affected pregnancies. We detected differentially methylated regions (DMRs) in pregnancies complicated with preeclampsia as early as 12 weeks of gestation, with distinct differences in the methylation profile between early and late pregnancy. Two classification models were developed to diagnose and predict preeclampsia, demonstrating promising results on a small set of validation samples.",
+  "experimental_design": {
+    "overall_design": "Reduced representation bisulphite sequencing of cell-free DNA collected from pregnant individuals at various moments throughout pregnancy duration. Both from healthy induviduals as well as individuals diagnosed with preeclampsia later in pregnancy. Samples are split into two groups (early and late pregnancy). Longitudinal samples from several case and control samples are also included.",
+    "experimental_type": "Methylation profiling by high throughput sequencing",
+    "tissue": "Blood plasma"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24676",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "genomic",
+    "library_selection": "Reduced Representation",
+    "molecule": "genomic DNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "Cell-free DNA (\ufeffcfDNA) was extracted using the Maxwell RSC LV ccfDNA kit (Promega) \ufeffaccording to the manufacturer\u2019s instructions",
+      "The cfRRBS protocol was followed as described by De Koker et al.  and adapted by Van Paemel et al. https://doi.org/10.1080/15592294.2020.1790950 the EZ DNA Lightning kit (ZymoResearch) was used."
+    ]
+  },
+  "data_processing": [
+    "Demultiplexing was performed using bcl-convert on standard settings",
+    "fastq files were processed with the bismark workflow of the nf-core/methylseq pipeline https://github.com/nf-core/methylseq/",
+    "the --rrbs flag was enabled for processing.",
+    "further data processing code can be found in the following git repo:https://github.com/bravgaev/ExPECT-analysis",
+    "Assembly: hg38",
+    "Supplementary files format and content: bismark coverage file"
+  ],
+  "study_metadata": {
+    "status": "Public on Jan 01 2026",
+    "submission_date": "Nov 21 2024",
+    "last_update_date": "Jan 01 2026",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1189068"
+  }
+}

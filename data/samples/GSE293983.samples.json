@@ -1,0 +1,77 @@
+{
+  "gse_id": "GSE293983",
+  "sample_summary": {
+    "total_samples": 3
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM8895865",
+      "title": "Donor1, smoker control",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE",
+        "genotype": "tissue"
+      },
+      "experimental_conditions": {
+        "treatment": "smoker control"
+      },
+      "descriptions": [
+        "Library name: D1RPE_2",
+        "Donor1, smoker control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47822487",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28275483"
+      },
+      "raw_extra_metadata": {
+        "batch": "donor1"
+      }
+    },
+    {
+      "gsm_id": "GSM8895866",
+      "title": "Donor2, healthy control",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE",
+        "genotype": "tissue"
+      },
+      "experimental_conditions": {
+        "treatment": "healthy control"
+      },
+      "descriptions": [
+        "Library name: D2RPE",
+        "Donor2, healthy control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47822486",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28275484"
+      },
+      "raw_extra_metadata": {
+        "batch": "donor2"
+      }
+    },
+    {
+      "gsm_id": "GSM8895867",
+      "title": "Donor3, AMD patient",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE",
+        "genotype": "tissue"
+      },
+      "experimental_conditions": {
+        "treatment": "AMD patient"
+      },
+      "descriptions": [
+        "Library name: D3RPE",
+        "Donor3, AMD patient"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47822485",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28275485"
+      },
+      "raw_extra_metadata": {
+        "batch": "donor3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "gse_id": "GSE249894",
+  "sample_summary": {
+    "total_samples": 20
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM7966587",
+      "title": "donor1-LM",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Macular neural retinas from left donor eyes exposed to intense light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765942",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859044"
+      }
+    },
+    {
+      "gsm_id": "GSM7966588",
+      "title": "donor1-CM",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Macular neural retinas from right donor eyes exposed to dim light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765941",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859045"
+      }
+    },
+    {
+      "gsm_id": "GSM7966589",
+      "title": "donor1-LP",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Mid-peripheral neural retinas from left donor eyes exposed to intense light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765940",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859046"
+      }
+    },
+    {
+      "gsm_id": "GSM7966590",
+      "title": "donor1-CP",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Mid-peripheral neural retinas from right donor eyes exposed to dim light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765939",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859047"
+      }
+    },
+    {
+      "gsm_id": "GSM7966591",
+      "title": "donor2-LM",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Macular neural retinas from left donor eyes exposed to intense light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765938",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859052"
+      }
+    },
+    {
+      "gsm_id": "GSM7966592",
+      "title": "donor2-CM",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Macular neural retinas from right donor eyes exposed to dim light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765937",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859053"
+      }
+    },
+    {
+      "gsm_id": "GSM7966593",
+      "title": "donor2-LP",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Mid-peripheral neural retinas from left donor eyes exposed to intense light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765936",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859054"
+      }
+    },
+    {
+      "gsm_id": "GSM7966594",
+      "title": "donor2-CP",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Mid-peripheral neural retinas from right donor eyes exposed to dim light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765935",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859055"
+      }
+    },
+    {
+      "gsm_id": "GSM7966595",
+      "title": "donor3-LM",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Macular neural retinas from left donor eyes exposed to intense light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765934",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859048"
+      }
+    },
+    {
+      "gsm_id": "GSM7966596",
+      "title": "donor3-LP",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Mid-peripheral neural retinas from left donor eyes exposed to intense light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765933",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859049"
+      }
+    },
+    {
+      "gsm_id": "GSM7966597",
+      "title": "donor3-CM",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Macular neural retinas from right donor eyes exposed to dim light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765932",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859050"
+      }
+    },
+    {
+      "gsm_id": "GSM7966598",
+      "title": "donor3-CP",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Mid-peripheral neural retinas from right donor eyes exposed to dim light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765931",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859051"
+      }
+    },
+    {
+      "gsm_id": "GSM7966599",
+      "title": "donor4-LM",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Macular neural retinas from left donor eyes exposed to intense light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765930",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859056"
+      }
+    },
+    {
+      "gsm_id": "GSM7966600",
+      "title": "donor4-LP",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Mid-peripheral neural retinas from left donor eyes exposed to intense light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765929",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859057"
+      }
+    },
+    {
+      "gsm_id": "GSM7966601",
+      "title": "donor4-CM",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Macular neural retinas from right donor eyes exposed to dim light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765928",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859058"
+      }
+    },
+    {
+      "gsm_id": "GSM7966602",
+      "title": "donor4-CP",
+      "biological_metadata": {
+        "tissue": "retinas"
+      },
+      "experimental_conditions": {
+        "treatment": "Mid-peripheral neural retinas from right donor eyes exposed to dim light"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic",
+        "data_processing": [
+          "The raw sequencing data was processed by the Cell Ranger software (v3.0.2, 10x Genomics)",
+          "Human refence genome (GRCh38) was used for accurate mapping of the sequencing readouts and quantification of gene expression",
+          "Assembly: GRCh38"
+        ]
+      },
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN38765927",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX22859059"
+      }
+    },
+    {
+      "gsm_id": "GSM8964093",
+      "title": "LG-M",
+      "biological_metadata": {
+        "tissue": "retina"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic single cell",
+        "data_processing": [
+          "10X Genomic",
+          "genome build: GRCh38",
+          "Supplementary files format and content: mtx, barcodes, features"
+        ]
+      },
+      "descriptions": [
+        "Library name: step3_6q_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48311515",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28654817"
+      }
+    },
+    {
+      "gsm_id": "GSM8964094",
+      "title": "LG-P",
+      "biological_metadata": {
+        "tissue": "retina"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic single cell",
+        "data_processing": [
+          "10X Genomic",
+          "genome build: GRCh38",
+          "Supplementary files format and content: mtx, barcodes, features"
+        ]
+      },
+      "descriptions": [
+        "Library name: step3_6q_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48311514",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28654818"
+      }
+    },
+    {
+      "gsm_id": "GSM8964095",
+      "title": "HG-M",
+      "biological_metadata": {
+        "tissue": "retina"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic single cell",
+        "data_processing": [
+          "10X Genomic",
+          "genome build: GRCh38",
+          "Supplementary files format and content: mtx, barcodes, features"
+        ]
+      },
+      "descriptions": [
+        "Library name: step3_6q_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48311513",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28654819"
+      }
+    },
+    {
+      "gsm_id": "GSM8964096",
+      "title": "HG-P",
+      "biological_metadata": {
+        "tissue": "retina"
+      },
+      "technical_metadata": {
+        "library_source": "transcriptomic single cell",
+        "data_processing": [
+          "10X Genomic",
+          "genome build: GRCh38",
+          "Supplementary files format and content: mtx, barcodes, features"
+        ]
+      },
+      "descriptions": [
+        "Library name: step3_6q_4"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48311512",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28654820"
+      }
+    }
+  ]
+}

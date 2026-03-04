@@ -1,0 +1,236 @@
+{
+  "gse_id": "GSE254430",
+  "sample_summary": {
+    "total_samples": 12
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM8042153",
+      "title": "BMMs, Control rep1, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml)"
+      },
+      "descriptions": [
+        "A_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651673",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423163"
+      }
+    },
+    {
+      "gsm_id": "GSM8042154",
+      "title": "BMMs, Control rep2, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml)"
+      },
+      "descriptions": [
+        "A_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651672",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423164"
+      }
+    },
+    {
+      "gsm_id": "GSM8042155",
+      "title": "BMMs, Control rep3, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml)"
+      },
+      "descriptions": [
+        "A_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651671",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423165"
+      }
+    },
+    {
+      "gsm_id": "GSM8042156",
+      "title": "BMMs, Control rep4, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml)"
+      },
+      "descriptions": [
+        "A_4"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651670",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423166"
+      }
+    },
+    {
+      "gsm_id": "GSM8042157",
+      "title": "BMMs, Model rep1, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml) + RANKL(50 ng/ml)"
+      },
+      "descriptions": [
+        "B_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651669",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423167"
+      }
+    },
+    {
+      "gsm_id": "GSM8042158",
+      "title": "BMMs, Model rep2, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml) + RANKL(50 ng/ml)"
+      },
+      "descriptions": [
+        "B_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651668",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423168"
+      }
+    },
+    {
+      "gsm_id": "GSM8042159",
+      "title": "BMMs, Model rep3, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml) + RANKL(50 ng/ml)"
+      },
+      "descriptions": [
+        "B_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651667",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423169"
+      }
+    },
+    {
+      "gsm_id": "GSM8042160",
+      "title": "BMMs, Model rep4, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml) + RANKL(50 ng/ml)"
+      },
+      "descriptions": [
+        "B_4"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651666",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423170"
+      }
+    },
+    {
+      "gsm_id": "GSM8042161",
+      "title": "BMMs, Treatment rep1, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml) + RANKL(50 ng/ml) + Annexin A5(2 ug/ml)"
+      },
+      "descriptions": [
+        "C_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651665",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423171"
+      }
+    },
+    {
+      "gsm_id": "GSM8042162",
+      "title": "BMMs, Treatment rep2, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml) + RANKL(50 ng/ml) + Annexin A5(2 ug/ml)"
+      },
+      "descriptions": [
+        "C_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651664",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423172"
+      }
+    },
+    {
+      "gsm_id": "GSM8042163",
+      "title": "BMMs, Treatment rep3, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml) + RANKL(50 ng/ml) + Annexin A5(2 ug/ml)"
+      },
+      "descriptions": [
+        "C_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651663",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423173"
+      }
+    },
+    {
+      "gsm_id": "GSM8042164",
+      "title": "BMMs, Treatment rep4, 5 days",
+      "biological_metadata": {
+        "tissue": "Bone marrow",
+        "cell_type": "BMMs",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "treatment": "M-CSF(30 ng/ml) + RANKL(50 ng/ml) + Annexin A5(2 ug/ml)"
+      },
+      "descriptions": [
+        "C_4"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN39651662",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX23423174"
+      }
+    }
+  ]
+}

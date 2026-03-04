@@ -1,0 +1,197 @@
+{
+  "gse_id": "GSE293982",
+  "sample_summary": {
+    "total_samples": 9
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM8895856",
+      "title": "Retinal organoids, Control-1, rep 1",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "Control-1",
+        "cell_type": "Retinal cells",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: Control1_1",
+        "Column name in dedup_countTable_geneName.tsv.gz Control1_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817998",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273830"
+      }
+    },
+    {
+      "gsm_id": "GSM8895857",
+      "title": "Retinal organoids, Control-1, rep 2",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "Control-1",
+        "cell_type": "Retinal cells",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: Control1_2",
+        "Column name in dedup_countTable_geneName.tsv.gz Control1_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817997",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273831"
+      }
+    },
+    {
+      "gsm_id": "GSM8895858",
+      "title": "Retinal organoids, Control-1, rep 3",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "Control-1",
+        "cell_type": "Retinal cells",
+        "genotype": "WT"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: Control1_3",
+        "Column name in dedup_countTable_geneName.tsv.gz Control1_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817996",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273832"
+      }
+    },
+    {
+      "gsm_id": "GSM8895859",
+      "title": "Retinal organoids, LCA-1, rep 1",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "LCA-1",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.1687C>T, homozygous"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: LCA1_1",
+        "Column name in dedup_countTable_geneName.tsv.gz LCA1_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817995",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273833"
+      }
+    },
+    {
+      "gsm_id": "GSM8895860",
+      "title": "Retinal organoids, LCA-1, rep 2",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "LCA-1",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.1687C>T, homozygous"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: LCA1_2",
+        "Column name in dedup_countTable_geneName.tsv.gz LCA1_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817994",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273834"
+      }
+    },
+    {
+      "gsm_id": "GSM8895861",
+      "title": "Retinal organoids, LCA-1, rep 3",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "LCA-1",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.1687C>T, homozygous"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: LCA1_3",
+        "Column name in dedup_countTable_geneName.tsv.gz LCA1_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817993",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273835"
+      }
+    },
+    {
+      "gsm_id": "GSM8895862",
+      "title": "Retinal organoids, MS-VUS, rep 1",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "MS-VUS",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.2108T>C p.(Ile703Thr), homozygous"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: MSVUS_1",
+        "Column name in dedup_countTable_geneName.tsv.gz MSVUS_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817992",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273836"
+      }
+    },
+    {
+      "gsm_id": "GSM8895863",
+      "title": "Retinal organoids, MS-VUS, rep 2",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "MS-VUS",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.2108T>C p.(Ile703Thr), homozygous"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: MSVUS_2",
+        "Column name in dedup_countTable_geneName.tsv.gz MSVUS_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817991",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273837"
+      }
+    },
+    {
+      "gsm_id": "GSM8895864",
+      "title": "Retinal organoids, MS-VUS, rep 3",
+      "biological_metadata": {
+        "tissue": "Retinal organoids",
+        "cell_line": "MS-VUS",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.2108T>C p.(Ile703Thr), homozygous"
+      },
+      "experimental_conditions": {
+        "time": "Day 210"
+      },
+      "descriptions": [
+        "Library name: MSVUS_3",
+        "Column name in dedup_countTable_geneName.tsv.gz MSVUS_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47817990",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28273838"
+      }
+    }
+  ]
+}

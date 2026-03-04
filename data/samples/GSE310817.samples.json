@@ -1,0 +1,304 @@
+{
+  "gse_id": "GSE310817",
+  "sample_summary": {
+    "total_samples": 37
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9309404",
+      "title": "100% Human Blood [204339380081_R03C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "0"
+      }
+    },
+    {
+      "gsm_id": "GSM9309405",
+      "title": "90% Human Blood, 10% Mouse Spleen [204339380081_R04C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "10"
+      }
+    },
+    {
+      "gsm_id": "GSM9309406",
+      "title": "75% Human Blood, 25% Mouse Spleen [204339380081_R05C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "25"
+      }
+    },
+    {
+      "gsm_id": "GSM9309407",
+      "title": "50% Human Blood, 50% Mouse Spleen [204339380081_R06C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "50"
+      }
+    },
+    {
+      "gsm_id": "GSM9309408",
+      "title": "25% Human Blood, 75% Mouse Spleen [204339380081_R07C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "75"
+      }
+    },
+    {
+      "gsm_id": "GSM9309409",
+      "title": "10% Human Blood, 90% Mouse Spleen [204339380081_R08C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "90"
+      }
+    },
+    {
+      "gsm_id": "GSM9309410",
+      "title": "90% Human Blood, 10% Mouse Fat [204361720056_R01C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "10"
+      }
+    },
+    {
+      "gsm_id": "GSM9309411",
+      "title": "75% Human Blood, 25% Mouse Fat [204361720056_R02C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "25"
+      }
+    },
+    {
+      "gsm_id": "GSM9309412",
+      "title": "50% Human Blood, 50% Mouse Fat [204361720056_R03C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "50"
+      }
+    },
+    {
+      "gsm_id": "GSM9309413",
+      "title": "25% Human Blood, 75% Mouse Fat [204361720056_R04C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "75"
+      }
+    },
+    {
+      "gsm_id": "GSM9309414",
+      "title": "10% Human Blood, 90% Mouse Fat [204361720056_R05C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "90"
+      }
+    },
+    {
+      "gsm_id": "GSM9309415",
+      "title": "100% Mouse Spleen [204361720056_R06C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "100"
+      }
+    },
+    {
+      "gsm_id": "GSM9309416",
+      "title": "100% Mouse Fat [204361720056_R07C01]",
+      "raw_extra_metadata": {
+        "batch": "1",
+        "mousepercent": "100"
+      }
+    },
+    {
+      "gsm_id": "GSM9309417",
+      "title": "100% Human Blood [205041760090_R07C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "0"
+      }
+    },
+    {
+      "gsm_id": "GSM9309418",
+      "title": "100% Human Blood [205041760090_R08C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "0"
+      }
+    },
+    {
+      "gsm_id": "GSM9309419",
+      "title": "100% Human Blood [205041760003_R01C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "0"
+      }
+    },
+    {
+      "gsm_id": "GSM9309420",
+      "title": "100% Human Blood [205041760003_R02C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "0"
+      }
+    },
+    {
+      "gsm_id": "GSM9309421",
+      "title": "95% Human Blood, 5% Mouse Fat [205041760003_R03C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "5"
+      }
+    },
+    {
+      "gsm_id": "GSM9309422",
+      "title": "90% Human Blood, 10% Mouse Fat [205041760003_R04C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "10"
+      }
+    },
+    {
+      "gsm_id": "GSM9309423",
+      "title": "85% Human Blood, 15% Mouse Fat [205041760003_R05C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "15"
+      }
+    },
+    {
+      "gsm_id": "GSM9309424",
+      "title": "75% Human Blood, 25% Mouse Fat [205041760003_R06C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "25"
+      }
+    },
+    {
+      "gsm_id": "GSM9309425",
+      "title": "50% Human Blood, 50% Mouse Fat [205041760003_R07C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "50"
+      }
+    },
+    {
+      "gsm_id": "GSM9309426",
+      "title": "25% Human Blood, 75% Mouse Fat [205041760003_R08C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "75"
+      }
+    },
+    {
+      "gsm_id": "GSM9309427",
+      "title": "15% Human Blood, 85% Mouse Fat [205041760124_R01C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "85"
+      }
+    },
+    {
+      "gsm_id": "GSM9309428",
+      "title": "10% Human Blood, 90% Mouse Fat [205041760124_R02C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "90"
+      }
+    },
+    {
+      "gsm_id": "GSM9309429",
+      "title": "5% Human Blood, 95% Mouse Fat [205041760124_R03C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "95"
+      }
+    },
+    {
+      "gsm_id": "GSM9309430",
+      "title": "95% Human Blood, 5% Mouse Spleen [205041760124_R04C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "5"
+      }
+    },
+    {
+      "gsm_id": "GSM9309431",
+      "title": "90% Human Blood, 10% Mouse Spleen [205041760124_R05C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "10"
+      }
+    },
+    {
+      "gsm_id": "GSM9309432",
+      "title": "85% Human Blood, 15% Mouse Spleen [205041760124_R06C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "15"
+      }
+    },
+    {
+      "gsm_id": "GSM9309433",
+      "title": "75% Human Blood, 25% Mouse Spleen [205041760124_R07C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "25"
+      }
+    },
+    {
+      "gsm_id": "GSM9309434",
+      "title": "50% Human Blood, 50% Mouse Spleen [205041760124_R08C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "50"
+      }
+    },
+    {
+      "gsm_id": "GSM9309435",
+      "title": "25% Human Blood, 75% Mouse Spleen [205041760090_R01C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "75"
+      }
+    },
+    {
+      "gsm_id": "GSM9309436",
+      "title": "15% Human Blood, 85% Mouse Spleen [205041760090_R02C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "85"
+      }
+    },
+    {
+      "gsm_id": "GSM9309437",
+      "title": "10% Human Blood, 90% Mouse Spleen [205041760090_R03C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "90"
+      }
+    },
+    {
+      "gsm_id": "GSM9309438",
+      "title": "5% Human Blood, 95% Mouse Spleen [205041760090_R04C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "95"
+      }
+    },
+    {
+      "gsm_id": "GSM9309439",
+      "title": "100% Mouse Fat [205041760090_R05C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "100"
+      }
+    },
+    {
+      "gsm_id": "GSM9309440",
+      "title": "100% Mouse Spleen [205041760090_R06C01]",
+      "raw_extra_metadata": {
+        "batch": "2",
+        "mousepercent": "100"
+      }
+    }
+  ]
+}

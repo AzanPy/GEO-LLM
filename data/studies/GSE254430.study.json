@@ -1,0 +1,39 @@
+{
+  "gse_id": "GSE254430",
+  "title": "Effect of recombinant human Annexin A5 on gene expression of bone marrow-derived macrophages differentiating into osteoclasts",
+  "organism": "Mus musculus",
+  "study_summary": "Primary BMMs were obtained from male C57BL/6 miceaged 4-6 weeks. The mice were euthanized, and femurs and tibias were removed. BMMs were flushed out of the bones using a cold culture medium, filtered through a 70-um cell strainer , and centrifuged at 1500 rpm for 5 min. The cells were suspended in cold culture medium supplemented with 20 ng/ml M-CSF and cultured for five days, with half of the medium being replaced on day three and full replacement on day 5 before being used for subsequent experiments.The culture medium was alpha-MEM supplemented with 10% FBS and 1% penicillin-streptomycin-gentamicin solution. Mature BMDMs were double-stained using flow cytometry antibodies CD16/32 and F4/80 for identification. The recombinant protein AnxA5 used in this study was produced by SEME Cell Technology Co., Ltd, China. To investigate the role of AnxA5 in osteoclast differeation, 100000 BMDMs were seeded in 12 well plates. After 24 hours of cell seeding, the regular medium was replaced with culture medium (30ng/ml m-csf, control group, A-1, A-2,A-3 and A-4), culture medium containing  50 ng/mL RankL (model group, B-1, B-2, B-3 amd B-4), culture medium containing  50 ng/mL RankL and 2 ug/mL of Annexin A5 (Treat group, C-1, C-2,C-3 and C-4) for 5 days.",
+  "experimental_design": {
+    "overall_design": "Total RNA was extracted using Trizol from BMMs after m-CSF and RANKL treatment with or without Annexin A5 (n = 4) for 5 days.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "Bone marrow"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24247",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "Total RNA was extracted using Trizol reagent (thermofisher, 15596018) following the manufacturer's procedure. The total RNA quantity and purity were analysis of Bioanalyzer 2100 and RNA 6000 Nano LabChip Kit (Agilent, CA, USA, 5067-1511) , high-quality RNA samples with RIN number > 7.0 were used to construct sequencing library.",
+      "mRNA was purified from total RNA (5ug) using Dynabeads Oligo (dT) (Thermo Fisher, CA, USA) with two rounds of purification. Following purification, the mRNA was fragmented into short fragments using divalent cations under elevated temperature (Magnesium RNA Fragmentation Module (NEB, cat.e6150, USA) under 94\u2103 5-7min). Then the cleaved RNA fragments were reverse-transcribed to create the cDNA by SuperScript\u2122 II Reverse Transcriptase (Invitrogen, cat. 1896649, USA), which were next used to synthesise U-labeled second-stranded DNAs with E. coli DNA polymerase I (NEB, cat.m0209, USA), RNase H (NEB, cat.m0297, USA) and dUTP Solution (Thermo Fisher, cat.R0133, USA). An A-base was then added to the blunt ends of each strand, preparing them for ligation to the indexed adapters. Each adapter contained a T-base overhang for ligating the adapter to the A-tailed fragmented DNA. Dual-index adapters were ligated to the fragments, and size selection was performed with AMPureXP beads. After the heat-labile UDG enzyme (NEB, cat.m0280, USA) treatment of the U-labeled second-stranded DNAs, the ligated products were amplified with PCR by the following conditions: initial denaturation at 95\u2103 for 3 min; 8 cycles of denaturation at 98\u2103 for 15 sec, annealing at 60\u2103 for 15 sec, and extension at 72\u2103 for 30 sec; and then final extension at 72\u2103 for 5 min. The average insert size for the final cDNA librarys were 300\u00b150 bp. At last, we performed the 2\u00d7150bp paired-end sequencing (PE150) on an Illumina NovaseqTM 6000 following the vendor's recommended protocol."
+    ]
+  },
+  "data_processing": [
+    "Reads obtained from the sequencing machines includes raw reads containing adapters or low quality bases which will affect the following assembly and analysis. Thus, to get high quality clean reads, reads were further filtered by Cutadapt (https://cutadapt.readthedocs.io/en/stable/,version:cutadapt-1.9). We aligned reads of all samples to the research species reference genome using HISAT2 (https://daehwankimlab.github.io/hisat2/,version:hisat2-2.2.1) package, which initially remove a portion of the reads based on quality information accompanying each read and then maps the reads to the reference genome.",
+    "The mapped reads of each sample were assembled using StringTie (http://ccb.jhu.edu/software/stringtie/,version:stringtie-2.1.6) with default parameters. Then, all transcriptomes from all samples were merged to reconstruct a comprehensive transcriptome using gffcompare software(http://ccb.jhu.edu/software/stringtie/gffcompare.shtml,version:gffcompare-0.9.8). After the final transcriptome was generated, StringTie and ballgown (http://www.bioconductor.org/packages/release/bioc/html/ballgown.html) were used to estimate the expression levels of all transcripts and perform expression abundance for mRNAs by calculating FPKM (fragment per kilobase of transcript per million mapped reads) value.",
+    "Genes differential expression analysis was performed by DESeq2 software between two different groups (and by edgeR between two samples). The genes with the parameter of false discovery rate (FDR) below 0.05 and absolute fold change \u2265 2 were considered differentially expressed genes. Differentially expressed genes were then subjected to enrichment analysis of GO functions and KEGG pathways.",
+    "Assembly: mm10",
+    "Supplementary files format and content: tab-delimited text files include FPKM values for each Sample"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 01 2025",
+    "submission_date": "Jan 29 2024",
+    "last_update_date": "Dec 01 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1070556"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "gse_id": "GSE296973",
+  "title": "Comparative Transcriptome Analysis of Peripheral Blood in High-Risk Preeclampsia versus Normotensive Pregnancies",
+  "organism": "Homo sapiens",
+  "study_summary": "This study identifies peripheral blood transcriptomic signatures associated with high-risk preeclampsia (PE). RNA sequencing of 10 PE patients (clinically diagnosed with hypertension and proteinuria) and 10 matched normotensive controls revealed differentially expressed genes (DEGs) enriched in angiogenesis, immune regulation, and endothelial dysfunction pathways, suggesting their potential as early biomarkers for PE.",
+  "experimental_design": {
+    "overall_design": "Peripheral blood samples from PE high-risk and control groups were collected in EDTA anticoagulant tubes, immediately mixed with TRIzol Reagent by vigorous vortexing to ensure complete cell lysis and RNA stabilization. Transcriptome profiling was performed using the Illumina NovaSeq 6000 platform with paired-end 150 bp sequencing, generating ~40 million reads per sample to achieve high coverage depth. Differential gene expression analysis focused on PE-associated pathways (angiogenesis, immune dysregulation) using DESeq2 with thresholds of |log2FC| \u22651 and adjusted p <0.05.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "Peripheral blood"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24676",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "Peripheral blood samples from PE high-risk and control groups were collected in EDTA anticoagulant tubes, immediately mixed with TRIzol Reagent by vigorous vortexing to ensure complete cell lysis and RNA stabilization. Transcriptome profiling was performed using the Illumina NovaSeq 6000 platform with paired-end 150 bp sequencing, generating ~40 million reads per sample to achieve high coverage depth.",
+      "RNA libraries for RNA-seq were prepared using SMARTER mRNA-Seq Library Prep Kit folowing manufacturer's protocols."
+    ]
+  },
+  "data_processing": [
+    "Total RNA integrity was verified using the Agilent Bioanalyzer 2100 system (RIN \u22657 required for library construction).",
+    "Strand-specific libraries were generated via poly-A selection, cDNA synthesis with dUTP-based strand marking, adapter ligation, and size selection (250\u2013300 bp insert size).",
+    "Final libraries were quantified with Qubit fluorometry and Bioanalyzer size profiling, then normalized for pooling.",
+    "Pooled libraries were sequenced on the Illumina NovaSeq 6000 platform using paired-end 150 bp reads, yielding ~40 million reads per sample.",
+    "Raw sequencing data were processed through Illumina DRAGEN Bio-IT Platform for base calling and FASTQ file generation.",
+    "Assembly: hg38",
+    "Supplementary files format and content: tab-delimited files include FPKM values for each sample"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 30 2025",
+    "submission_date": "May 13 2025",
+    "last_update_date": "Dec 30 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1262265"
+  }
+}

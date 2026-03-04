@@ -1,0 +1,206 @@
+{
+  "gse_id": "GSE301140",
+  "sample_summary": {
+    "total_samples": 18
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9076210",
+      "title": "control, rep 1",
+      "descriptions": [
+        "Library name: Sample 1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725213",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479600"
+      }
+    },
+    {
+      "gsm_id": "GSM9076211",
+      "title": "control, rep 2",
+      "descriptions": [
+        "Library name: Sample 2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725212",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479601"
+      }
+    },
+    {
+      "gsm_id": "GSM9076212",
+      "title": "control, rep 3",
+      "descriptions": [
+        "Library name: Sample 3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725211",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479602"
+      }
+    },
+    {
+      "gsm_id": "GSM9076213",
+      "title": "control, rep 4",
+      "descriptions": [
+        "Library name: Sample 4"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725210",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479603"
+      }
+    },
+    {
+      "gsm_id": "GSM9076214",
+      "title": "combination_aCD4, rep 1",
+      "descriptions": [
+        "Library name: Sample 5"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725209",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479604"
+      }
+    },
+    {
+      "gsm_id": "GSM9076215",
+      "title": "combination_aCD4, rep 2",
+      "descriptions": [
+        "Library name: Sample 6"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725208",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479605"
+      }
+    },
+    {
+      "gsm_id": "GSM9076216",
+      "title": "combination_aCD4, rep 3",
+      "descriptions": [
+        "Library name: Sample 7"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725207",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479606"
+      }
+    },
+    {
+      "gsm_id": "GSM9076217",
+      "title": "combination_aCD4, rep 4",
+      "descriptions": [
+        "Library name: Sample 8"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725206",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479607"
+      }
+    },
+    {
+      "gsm_id": "GSM9076218",
+      "title": "combination_aCD4, rep 5",
+      "descriptions": [
+        "Library name: Sample 9"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725205",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479608"
+      }
+    },
+    {
+      "gsm_id": "GSM9076219",
+      "title": "combination, rep 1",
+      "descriptions": [
+        "Library name: Sample 10"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725204",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479609"
+      }
+    },
+    {
+      "gsm_id": "GSM9076220",
+      "title": "combination, rep 2",
+      "descriptions": [
+        "Library name: Sample 11"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725203",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479610"
+      }
+    },
+    {
+      "gsm_id": "GSM9076221",
+      "title": "combination, rep 3",
+      "descriptions": [
+        "Library name: Sample 12"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725202",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479611"
+      }
+    },
+    {
+      "gsm_id": "GSM9076222",
+      "title": "combination, rep 4",
+      "descriptions": [
+        "Library name: Sample 13"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725201",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479612"
+      }
+    },
+    {
+      "gsm_id": "GSM9076223",
+      "title": "combination, rep 5",
+      "descriptions": [
+        "Library name: Sample 14"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725200",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479613"
+      }
+    },
+    {
+      "gsm_id": "GSM9076224",
+      "title": "aPD1, rep 1",
+      "descriptions": [
+        "Library name: Sample 15"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725199",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479614"
+      }
+    },
+    {
+      "gsm_id": "GSM9076225",
+      "title": "aPD1, rep 2",
+      "descriptions": [
+        "Library name: Sample 16"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725198",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479615"
+      }
+    },
+    {
+      "gsm_id": "GSM9076226",
+      "title": "aPD1, rep 3",
+      "descriptions": [
+        "Library name: Sample 17"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725197",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479616"
+      }
+    },
+    {
+      "gsm_id": "GSM9076227",
+      "title": "aPD1, rep 4",
+      "descriptions": [
+        "Library name: Sample 18"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN49725196",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX29479617"
+      }
+    }
+  ]
+}

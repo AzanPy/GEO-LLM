@@ -1,0 +1,440 @@
+{
+  "gse_id": "GSE288573",
+  "sample_summary": {
+    "total_samples": 16
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM8770147",
+      "title": "Young Mice, CSC treatment, 3 days, GEX",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "CSC"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA"
+      },
+      "descriptions": [
+        "Library name: Young_CSC_3d_GEX",
+        "Young mice, CSC treatment 3 days, snRNAseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511880",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536366"
+      },
+      "raw_extra_metadata": {
+        "library_type": "mRNA"
+      }
+    },
+    {
+      "gsm_id": "GSM8770148",
+      "title": "Young Mice, CSC treatment, 3 days, ATAC",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "CSC"
+      },
+      "technical_metadata": {
+        "library_strategy": "ATAC-seq",
+        "library_source": "genomic single cell",
+        "library_selection": "other"
+      },
+      "descriptions": [
+        "Library name: Young_CSC_3d_ATAC",
+        "Young mice, CSC treatment 3 days, snATACseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511881",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536367"
+      },
+      "raw_extra_metadata": {
+        "library_type": "ATAC"
+      }
+    },
+    {
+      "gsm_id": "GSM8770149",
+      "title": "Young Mice, Control, 3 days, GEX",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA"
+      },
+      "descriptions": [
+        "Library name: Young_Con_3d_GEX",
+        "Young mice, DMSO treatment 3 days, snRNAseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511882",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536374"
+      },
+      "raw_extra_metadata": {
+        "library_type": "mRNA"
+      }
+    },
+    {
+      "gsm_id": "GSM8770150",
+      "title": "Young Mice, Control, 3 days, ATAC",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "technical_metadata": {
+        "library_strategy": "ATAC-seq",
+        "library_source": "genomic single cell",
+        "library_selection": "other"
+      },
+      "descriptions": [
+        "Library name: Young_Con_3d_ATAC",
+        "Young mice, DMSO treatment 3 days, snATACseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511883",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536375"
+      },
+      "raw_extra_metadata": {
+        "library_type": "ATAC"
+      }
+    },
+    {
+      "gsm_id": "GSM8770151",
+      "title": "Young Mice, CSC treatment, 6 days, GEX",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "CSC"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA"
+      },
+      "descriptions": [
+        "Library name: Young_CSC_6d_GEX",
+        "Young mice, CSC treatment 6 days, snRNAseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511884",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536376"
+      },
+      "raw_extra_metadata": {
+        "library_type": "mRNA"
+      }
+    },
+    {
+      "gsm_id": "GSM8770152",
+      "title": "Young Mice, CSC treatment, 6 days, ATAC",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "CSC"
+      },
+      "technical_metadata": {
+        "library_strategy": "ATAC-seq",
+        "library_source": "genomic single cell",
+        "library_selection": "other"
+      },
+      "descriptions": [
+        "Library name: Young_CSC_6d_ATAC",
+        "Young mice, CSC treatment 6 days, snATACseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511885",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536377"
+      },
+      "raw_extra_metadata": {
+        "library_type": "ATAC"
+      }
+    },
+    {
+      "gsm_id": "GSM8770153",
+      "title": "Young Mice, Control, 6 days, GEX",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA"
+      },
+      "descriptions": [
+        "Library name: Young_Con_6d_GEX",
+        "Young mice, DMSO treatment 6 days, snRNAseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511886",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536378"
+      },
+      "raw_extra_metadata": {
+        "library_type": "mRNA"
+      }
+    },
+    {
+      "gsm_id": "GSM8770154",
+      "title": "Young Mice, Control, 6 days, ATAC",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "technical_metadata": {
+        "library_strategy": "ATAC-seq",
+        "library_source": "genomic single cell",
+        "library_selection": "other"
+      },
+      "descriptions": [
+        "Library name: Young_Con_6d_ATAC",
+        "Young mice, DMSO treatment 6 days, snATACseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511887",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536379"
+      },
+      "raw_extra_metadata": {
+        "library_type": "ATAC"
+      }
+    },
+    {
+      "gsm_id": "GSM8770155",
+      "title": "Young Mice, CSC treatment, 10 days, GEX",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "CSC"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA"
+      },
+      "descriptions": [
+        "Library name: Young_CSC_10d_GEX",
+        "Young mice, CSC treatment 10 days, snRNAseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511888",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536380"
+      },
+      "raw_extra_metadata": {
+        "library_type": "mRNA"
+      }
+    },
+    {
+      "gsm_id": "GSM8770156",
+      "title": "Young Mice, CSC treatment, 10 days, ATAC",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "CSC"
+      },
+      "technical_metadata": {
+        "library_strategy": "ATAC-seq",
+        "library_source": "genomic single cell",
+        "library_selection": "other"
+      },
+      "descriptions": [
+        "Library name: Young_CSC_10d_ATAC",
+        "Young mice, CSC treatment 10 days, snATACseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511889",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536381"
+      },
+      "raw_extra_metadata": {
+        "library_type": "ATAC"
+      }
+    },
+    {
+      "gsm_id": "GSM8770157",
+      "title": "Young Mice, Control, 10 days, GEX",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA"
+      },
+      "descriptions": [
+        "Library name: Young_Con_10d_GEX",
+        "Young mice, DMSO treatment 10 days, snRNAseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511890",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536368"
+      },
+      "raw_extra_metadata": {
+        "library_type": "mRNA"
+      }
+    },
+    {
+      "gsm_id": "GSM8770158",
+      "title": "Young Mice, Control, 10 days, ATAC",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "technical_metadata": {
+        "library_strategy": "ATAC-seq",
+        "library_source": "genomic single cell",
+        "library_selection": "other"
+      },
+      "descriptions": [
+        "Library name: Young_Con_10d_ATAC",
+        "Young mice, DMSO treatment 10 days, snATACseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511891",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536369"
+      },
+      "raw_extra_metadata": {
+        "library_type": "ATAC"
+      }
+    },
+    {
+      "gsm_id": "GSM8770159",
+      "title": "Old Mice, CSC treatment, 10 days, GEX",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "CSC"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA"
+      },
+      "descriptions": [
+        "Library name: Old_CSC_10d_GEX",
+        "Old mice, CSC treatment 10 days, snRNAseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511892",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536370"
+      },
+      "raw_extra_metadata": {
+        "library_type": "mRNA"
+      }
+    },
+    {
+      "gsm_id": "GSM8770160",
+      "title": "Old Mice, CSC treatment, 10 days, ATAC",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "CSC"
+      },
+      "technical_metadata": {
+        "library_strategy": "ATAC-seq",
+        "library_source": "genomic single cell",
+        "library_selection": "other"
+      },
+      "descriptions": [
+        "Library name: Old_CSC_10d_ATAC",
+        "Old mice, CSC treatment 10 days, snATACseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511893",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536371"
+      },
+      "raw_extra_metadata": {
+        "library_type": "ATAC"
+      }
+    },
+    {
+      "gsm_id": "GSM8770161",
+      "title": "Old Mice, Control, 10 days, GEX",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "technical_metadata": {
+        "library_strategy": "RNA-Seq",
+        "library_source": "transcriptomic single cell",
+        "library_selection": "cDNA"
+      },
+      "descriptions": [
+        "Library name: Old_Con_10d_GEX",
+        "Old mice, DMSO treatment 10 days, snRNAseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511894",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536372"
+      },
+      "raw_extra_metadata": {
+        "library_type": "mRNA"
+      }
+    },
+    {
+      "gsm_id": "GSM8770162",
+      "title": "Old Mice, Control, 10 days, ATAC",
+      "biological_metadata": {
+        "tissue": "Eye",
+        "cell_type": "RPE"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "technical_metadata": {
+        "library_strategy": "ATAC-seq",
+        "library_source": "genomic single cell",
+        "library_selection": "other"
+      },
+      "descriptions": [
+        "Library name: Old_Con_10d_ATAC",
+        "Old mice, DMSO treatment 10 days, snATACseq"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN46511895",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX27536373"
+      },
+      "raw_extra_metadata": {
+        "library_type": "ATAC"
+      }
+    }
+  ]
+}

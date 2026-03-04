@@ -1,0 +1,42 @@
+{
+  "gse_id": "GSE298665",
+  "title": "Loss of Prom1 triggers RPE Degeneration in Atrophic AMD",
+  "organism": "Mus musculus",
+  "study_summary": "The gap in our understanding of the pathobiology of atrophic AMD (aAMD) is a barrier to developing new and effective therapies for geographic atrophy (GA) of the retinal pigment epithelium (RPE). Age-related decline in phagocytic function and impaired autophagy flux in RPE cause oxidized lipid-protein accumulation, accelerating complement-mediated inflammation and leading to RPE cell damage and apoptosis. Prominin-1 (Prom1), a glycosylated membrane protein, is essential for photoreceptor (PR) disk biogenesis and outer segment (OS) structure. However, Prom1 mutations are primarily implicated in macular diseases such as Stargardt disease 4 and bull\u2019s eye macular dystrophies. The physiological impact of Prom1 mutations in the retina is not clear. We have shown earlier that Prom1 is a central regulator of autophagy in human RPE and identified Prom1 as an emerging player in RPE homeostasis. We propose to build upon these salient findings by assessing the central hypothesis that Prom1 plays a cell-autonomous role in the RPE and that defects in Prom1-dependent mTORC1-TFEB signaling impair RPE autophagy and lysosomal function, triggering mRPE degeneration and induction of epithelial-mesenchymal transition (EMT). This study investigated whether Prom1 is required for mouse RPE (mRPE) autophagy and phagocytosis, which are cellular processes essential for photoreceptor survival. Prom1-KO decreases autophagy flux, activates mTORC1, and concomitantly decreases transcription factor EB (TFEB) and Cathepsin-D activities in mRPE cells. In addition, Prom1-KO reduces the clearance of bovine photoreceptor outer segments in mRPE cells due to increased mTORC1 and reduced TFEB activities. Dysfunction of Prom1-dependent autophagy correlates with both a decrease in ZO-1 and E-cadherin and a concomitant increase in Vimentin, SNAI1, and ZEB1 levels, consistent with induction of epithelial-mesenchymal transition (EMT) in Prom1-KO mRPE cells. Transcriptomic analysis of Prom1-KO mouse RPE cells by RNA sequencing showed a list of 15 DEGs with high statistical significance in Prom1-KO vs. WT mRPE cells. GSEA and NES show significant upregulation of cell-cycle transcription factors (E2F and MYC targets, G2M checkpoint), mTORC1 signaling, unfolded protein response, reactive oxygen species, TNFA signaling via NF-kappaB, DNA repair, and oxidative phosphorylation pathways; whereas significant downregulation of apical junction and EMT pathways in Prom1-KO vs. WT mRPE cells. Our results demonstrate that Prom1-mTORC1-TFEB signaling is a central driver of cell-autonomous mRPE homeostasis. We show that Prom1-KO in mRPE leads to RPE defects similar to those seen in atrophic age-related macular degeneration and opens new avenues of investigation targeting Prom1 in retinal degenerative diseases.",
+  "experimental_design": {
+    "overall_design": "In cultured mouse RPE cells, the Prom1 gene was deleted using CRISPR/Cas9-mediated gene editing. Prom1-KO was verified using genomic DNA analysis. To understand the effect of Prom1-KO in mouse RPE in situ, we used Cre-loxP-mediated gene targeting. We crossed Prom1fl/fl mice with RPE65-Cre mice to generate RPE-specific Prom1-KO in a mouse model. This mouse was gavaged with Tamoxifen to delete the Prom1 gene in the RPE but not in the photoreceptors. We used Prom1 IHC and RNAscope assays to confirm Prom1-KO in the RPE in situ. The mouse eyes were dissected, and the RPE/choroid samples from WT and RPE-specific Prom1-KO mice were used for bulk RNA sequencing. To explore the role of Prom1 in mRPE cells, we used CRISPR/Cas9-mediated gene editing to delete Prom1 in vitro. WT and Prom1-KO mRPE cells were used to perform RNAseq on the Illumina NovaSeq6000 sequencing system.",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "mouse retinal pigment epithelium (RPE)"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24247",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "polyA RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "The mouse RPE cells were cultured in culturing medium containing N1 medium supplement (1/100 vol/vol), glutamine (1/100 vol/vol), penicillin-streptomycin (1/100 vol/vol), non-essential amino acid (1/100 vol/vol), hydrocortisone (20\u03bcg/mL), taurine (250\u2009mg/L), triiodo-thyronin (0.013\u03bcg/L), 5% FBS in alpha-MEM at 37\u00b0C in 5% CO2 and media replaced three times a week.",
+    "treatment_protocol": "We used the Cre-loxP approach to delete the Prom1 gene from the mouse RPE in situ.  To knock out Prom1 from mRPE cells in vitro, we used CRISPR/Cas9-mediated gene editing. mRPE cells were cultured in 6-well plates. The cells were allowed to reach 70% confluency and transduced with 10ml lentiviral Cas9 construct with 2ml polybrene. After 24h, the infected cells were subcultured in media containing 1.5mg/ml puromycin and grown until 90% confluency. The cells were selected in media containing 0.5mg/ml puromycin for another week. After puromycin selection, the stably expressing Cas9-mRPE cells were transfected with Prom1 (chromosome 5) synthetic guide RNA (gRNA) sequence (5\u2019-CGTTGCTGCAACAAATGCGG-3\u2019) (ThermoFisher Scientific, catalog # A35533) using Lipofectamine CRISPRMAX transfection reagent (ThermoFisher, Cat # CMAX00008) to target the mouse Prom1 gene at exon 5, following the manufacturer\u2019s protocol. Prom1-KO was verified by genomic DNA analysis. Cas9-expressing mRPE cells were transfected with scrambled or Prom1 gRNA, and these cells were used to extract the genomic DNA using the QIAamp DNA micro kit. PCR was performed using the forward primer: 5\u2019- GTGCATACTGGGGTCCTCAC-3\u2019 and reverse primer: Reverse: 5\u2019-ATCTCCCTGCAACACCCTAA-3\u2019 and Qiagen Taq PCR master mix kit. Genomic sequences were BLAST analyzed to confirm the WT and different Prom1-KO sequences.",
+    "extraction_protocol": [
+      "RNA isolation from WT and Prom1-KO mRPE cells were performed using Trizol (Invitrogen) and RNeasy (Qiagen), followed by RNA QC per sample",
+      "RNA libraries were prepared using Stranded mRNA (NEB) Library prep kit following manufacturer's protocol"
+    ]
+  },
+  "data_processing": [
+    "RNA sequencing reads were adapter-trimmed and quality-filtered using Trimgalore v0.6.7 (Krueger et al., 2023).",
+    "An alignment reference was generated from the mm39 mouse genome and GENCODE comprehensive gene annotations (vM31), to which trimmed reads were aligned and counted using Spliced Transcripts Alignment to a Reference (STAR) v2.7.9a (Dobin et al., 2013) with the \u2013quantMode GeneCounts parameter.",
+    "About 174-216 million reads were acquired per sample. DESeq2 package v1.42.0 (Love et al. 2014) was used to perform sample-level quality control, low count filtering, normalization and downstream differential gene expression analysis.",
+    "Assembly: mm39",
+    "Supplementary files format and content: csv file containing raw counts for each sample",
+    "Supplementary files format and content: csv file containing normalized counts for each sample"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 17 2025",
+    "submission_date": "Jun 02 2025",
+    "last_update_date": "Dec 17 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1270835"
+  }
+}

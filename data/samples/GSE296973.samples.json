@@ -1,0 +1,328 @@
+{
+  "gse_id": "GSE296973",
+  "sample_summary": {
+    "total_samples": 20
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM8980951",
+      "title": "control_1",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_1",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451382",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774775"
+      }
+    },
+    {
+      "gsm_id": "GSM8980952",
+      "title": "control_2",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_2",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451381",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774776"
+      }
+    },
+    {
+      "gsm_id": "GSM8980953",
+      "title": "control_3",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_3",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451380",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774777"
+      }
+    },
+    {
+      "gsm_id": "GSM8980954",
+      "title": "control_4",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_4",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451379",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774778"
+      }
+    },
+    {
+      "gsm_id": "GSM8980955",
+      "title": "control_5",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_5",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451378",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774779"
+      }
+    },
+    {
+      "gsm_id": "GSM8980956",
+      "title": "control_6",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_6",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451377",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774780"
+      }
+    },
+    {
+      "gsm_id": "GSM8980957",
+      "title": "control_7",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_7",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451376",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774781"
+      }
+    },
+    {
+      "gsm_id": "GSM8980958",
+      "title": "control_8",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_8",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451375",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774782"
+      }
+    },
+    {
+      "gsm_id": "GSM8980959",
+      "title": "control_9",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_9",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451374",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774783"
+      }
+    },
+    {
+      "gsm_id": "GSM8980960",
+      "title": "control_10",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "control"
+      },
+      "descriptions": [
+        "Library name: CTL_10",
+        "control"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451373",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774784"
+      }
+    },
+    {
+      "gsm_id": "GSM8980961",
+      "title": "pe_1",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_1",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451372",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774785"
+      }
+    },
+    {
+      "gsm_id": "GSM8980962",
+      "title": "pe_2",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_2",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451371",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774786"
+      }
+    },
+    {
+      "gsm_id": "GSM8980963",
+      "title": "pe_3",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_3",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451370",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774787"
+      }
+    },
+    {
+      "gsm_id": "GSM8980964",
+      "title": "pe_4",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_4",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451369",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774788"
+      }
+    },
+    {
+      "gsm_id": "GSM8980965",
+      "title": "pe_5",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_5",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451368",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774789"
+      }
+    },
+    {
+      "gsm_id": "GSM8980966",
+      "title": "pe_6",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_6",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451367",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774790"
+      }
+    },
+    {
+      "gsm_id": "GSM8980967",
+      "title": "pe_7",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_7",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451366",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774791"
+      }
+    },
+    {
+      "gsm_id": "GSM8980968",
+      "title": "pe_8",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_8",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451365",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774792"
+      }
+    },
+    {
+      "gsm_id": "GSM8980969",
+      "title": "pe_9",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_9",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451364",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774793"
+      }
+    },
+    {
+      "gsm_id": "GSM8980970",
+      "title": "pe_10",
+      "biological_metadata": {
+        "tissue": "Peripheral blood",
+        "cell_line": "PE high-risk"
+      },
+      "descriptions": [
+        "Library name: PE_10",
+        "PE"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN48451363",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28774794"
+      }
+    }
+  ]
+}

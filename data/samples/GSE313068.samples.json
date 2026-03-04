@@ -1,0 +1,44 @@
+{
+  "gse_id": "GSE313068",
+  "sample_summary": {
+    "total_samples": 3
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9360034",
+      "title": "scRNAseq, A549, Pool1",
+      "descriptions": [
+        "Library name: et02b04_SamplePool1",
+        "The samples are organized based the aggr_timepoints.csv file"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830957",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410964"
+      }
+    },
+    {
+      "gsm_id": "GSM9360035",
+      "title": "scRNAseq, A549, Pool2",
+      "descriptions": [
+        "Library name: et02b04_SamplePool2",
+        "The samples are organized based the aggr_timepoints.csv file"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830956",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410965"
+      }
+    },
+    {
+      "gsm_id": "GSM9360036",
+      "title": "scRNAseq, A549, Pool3",
+      "descriptions": [
+        "Library name: et02b04_SamplePool3",
+        "The samples are organized based the aggr_timepoints.csv file"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830955",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410966"
+      }
+    }
+  ]
+}

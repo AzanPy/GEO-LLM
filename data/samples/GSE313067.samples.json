@@ -1,0 +1,488 @@
+{
+  "gse_id": "GSE313067",
+  "sample_summary": {
+    "total_samples": 24
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9360010",
+      "title": "A549, DMSO, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "descriptions": [
+        "Library name: DMSO_1",
+        "column name in et02b21.48_counts.txt: DMSO_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831009",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410940"
+      }
+    },
+    {
+      "gsm_id": "GSM9360011",
+      "title": "A549, DMSO, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "descriptions": [
+        "Library name: DMSO_2",
+        "column name in et02b21.48_counts.txt: DMSO_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831008",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410941"
+      }
+    },
+    {
+      "gsm_id": "GSM9360012",
+      "title": "A549, DMSO, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO"
+      },
+      "descriptions": [
+        "Library name: DMSO_3",
+        "column name in et02b21.48_counts.txt: DMSO_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831007",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410942"
+      }
+    },
+    {
+      "gsm_id": "GSM9360013",
+      "title": "A549, DMSO + pIC, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: DMSO_PIC_1",
+        "column name in et02b21.48_counts.txt: DMSO_PIC_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831006",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410943"
+      }
+    },
+    {
+      "gsm_id": "GSM9360014",
+      "title": "A549, DMSO + pIC, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: DMSO_PIC_2",
+        "column name in et02b21.48_counts.txt: DMSO_PIC_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831005",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410944"
+      }
+    },
+    {
+      "gsm_id": "GSM9360015",
+      "title": "A549, DMSO + pIC, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "DMSO + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: DMSO_PIC_3",
+        "column name in et02b21.48_counts.txt: DMSO_PIC_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831004",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410945"
+      }
+    },
+    {
+      "gsm_id": "GSM9360016",
+      "title": "A549,  24 μM JNK-IN-8, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "24 μM JNK-IN-8"
+      },
+      "descriptions": [
+        "Library name: JNK_24_1",
+        "column name in et02b21.48_counts.txt: JNK_24_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831003",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410946"
+      }
+    },
+    {
+      "gsm_id": "GSM9360017",
+      "title": "A549,  24 μM JNK-IN-8, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "24 μM JNK-IN-8"
+      },
+      "descriptions": [
+        "Library name: JNK_24_2",
+        "column name in et02b21.48_counts.txt: JNK_24_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831002",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410947"
+      }
+    },
+    {
+      "gsm_id": "GSM9360018",
+      "title": "A549,  24 μM JNK-IN-8, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "24 μM JNK-IN-8"
+      },
+      "descriptions": [
+        "Library name: JNK_24_3",
+        "column name in et02b21.48_counts.txt: JNK_24_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831001",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410948"
+      }
+    },
+    {
+      "gsm_id": "GSM9360019",
+      "title": "A549,  24 μM JNK-IN-8 + pIC, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "24 μM JNK-IN-8 + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JNK_PIC_24_1",
+        "column name in et02b21.48_counts.txt: JNK_PIC_24_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53831000",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410949"
+      }
+    },
+    {
+      "gsm_id": "GSM9360020",
+      "title": "A549,  24 μM JNK-IN-8 + pIC, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "24 μM JNK-IN-8 + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JNK_PIC_24_2",
+        "column name in et02b21.48_counts.txt: JNK_PIC_24_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830999",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410950"
+      }
+    },
+    {
+      "gsm_id": "GSM9360021",
+      "title": "A549,  24 μM JNK-IN-8 + pIC, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "24 μM JNK-IN-8 + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JNK_PIC_24_3",
+        "column name in et02b21.48_counts.txt: JNK_PIC_24_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830998",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410951"
+      }
+    },
+    {
+      "gsm_id": "GSM9360022",
+      "title": "A549,  10 μM ruxolitinib, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib"
+      },
+      "descriptions": [
+        "Library name: JAK_1",
+        "column name in et02b21.48_counts.txt: JAK_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830997",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410952"
+      }
+    },
+    {
+      "gsm_id": "GSM9360023",
+      "title": "A549,  10 μM ruxolitinib, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib"
+      },
+      "descriptions": [
+        "Library name: JAK_2",
+        "column name in et02b21.48_counts.txt: JAK_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830996",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410953"
+      }
+    },
+    {
+      "gsm_id": "GSM9360024",
+      "title": "A549,  10 μM ruxolitinib, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib"
+      },
+      "descriptions": [
+        "Library name: JAK_3",
+        "column name in et02b21.48_counts.txt: JAK_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830995",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410954"
+      }
+    },
+    {
+      "gsm_id": "GSM9360025",
+      "title": "A549,  10 μM ruxolitinib + 24 μM JNK-IN-8, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 24 μM JNK-IN-8"
+      },
+      "descriptions": [
+        "Library name: JAK_JNK_1",
+        "column name in et02b21.48_counts.txt: JAK_JNK_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830994",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410955"
+      }
+    },
+    {
+      "gsm_id": "GSM9360026",
+      "title": "A549,  10 μM ruxolitinib + 24 μM JNK-IN-8, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 24 μM JNK-IN-8"
+      },
+      "descriptions": [
+        "Library name: JAK_JNK_2",
+        "column name in et02b21.48_counts.txt: JAK_JNK_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830993",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410956"
+      }
+    },
+    {
+      "gsm_id": "GSM9360027",
+      "title": "A549,  10 μM ruxolitinib + 24 μM JNK-IN-8, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 24 μM JNK-IN-8"
+      },
+      "descriptions": [
+        "Library name: JAK_JNK_3",
+        "column name in et02b21.48_counts.txt: JAK_JNK_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830992",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410957"
+      }
+    },
+    {
+      "gsm_id": "GSM9360028",
+      "title": "A549,  10 μM ruxolitinib + 24 μM JNK-IN-8 + pIC, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 24 μM JNK-IN-8 + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JAK_JNK_PIC_1",
+        "column name in et02b21.48_counts.txt: JAK_JNK_PIC_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830991",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410958"
+      }
+    },
+    {
+      "gsm_id": "GSM9360029",
+      "title": "A549,  10 μM ruxolitinib + 24 μM JNK-IN-8 + pIC, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 24 μM JNK-IN-8 + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JAK_JNK_PIC_2",
+        "column name in et02b21.48_counts.txt: JAK_JNK_PIC_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830990",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410959"
+      }
+    },
+    {
+      "gsm_id": "GSM9360030",
+      "title": "A549,  10 μM ruxolitinib + 24 μM JNK-IN-8 + pIC, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 24 μM JNK-IN-8 + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JAK_JNK_PIC_3",
+        "column name in et02b21.48_counts.txt:JAK_JNK_PIC_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830989",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410960"
+      }
+    },
+    {
+      "gsm_id": "GSM9360031",
+      "title": "A549,  10 μM ruxolitinib + pIC, rep1",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JAK_PIC_1",
+        "column name in et02b21.48_counts.txt: JAK_PIC_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830988",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410961"
+      }
+    },
+    {
+      "gsm_id": "GSM9360032",
+      "title": "A549,  10 μM ruxolitinib + pIC, rep2",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JAK_PIC_2",
+        "column name in et02b21.48_counts.txt: JAK_PIC_2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830987",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410962"
+      }
+    },
+    {
+      "gsm_id": "GSM9360033",
+      "title": "A549,  10 μM ruxolitinib + pIC, rep3",
+      "biological_metadata": {
+        "tissue": "cell line",
+        "cell_line": "A549",
+        "cell_type": "human alveolar epithelial cells"
+      },
+      "experimental_conditions": {
+        "treatment": "10 μM ruxolitinib + 5 ng/mL pIC"
+      },
+      "descriptions": [
+        "Library name: JAK_PIC_3",
+        "column name in et02b21.48_counts.txt: JAK_PIC_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53830986",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31410963"
+      }
+    }
+  ]
+}

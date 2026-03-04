@@ -1,0 +1,38 @@
+{
+  "gse_id": "GSE313101",
+  "title": "FOLFIRINOX Plus Nivolumab Promotes Irregular Intra-Tumoral Lymphoid Aggregates in Borderline Resectable Pancreatic Adenocarcinoma: A Phase 1 Trial",
+  "organism": "Homo sapiens",
+  "study_summary": "Combination therapies of chemotherapy and immune checkpoint inhibitors (ICIs) have failed to improve survival in pancreatic ductal adenocarcinoma (PDAC), except in rare MSI-H cases, despite their success in other solid tumors.  Most prior studies have been conducted in advanced disease. Here, we present clinical, pathologic, and translational results from a phase 1b/2 investigator-initiated study evaluating neoadjuvant modified FOLFIRINOX (mFOLFIRINOX, mFFX) plus nivolumab in patients with borderline-resectable (BR) PDAC. Among 28 patients enrolled, 22 (79%) proceeded to surgery. Treatment was well tolerated with no significant delays or surgical complications, meeting the primary endpoint. Among patients who underwent surgical resection, median disease-free survival was 19.7 months, median progression-free survival was 26 months (95% CI: 14.7-34.3) and median overall survival was 38 months (95% CI: 27.9-not reached). The regimen demonstrated an acceptable safety profile, with all Grade 3-4 treatment-related adverse events due to chemotherapy and no Grade 3 immune related adverse events observed. Treatment effects were assessed using paired pre- and post-treatment samples and by comparing post-treatment tumors from the nivolumab cohort to historical BR mFFX-only controls. In paired analyses, intra-tumoral CD8 T cells and plasma cells increased together; in between-group comparisons, plasma cells were significantly higher in the nivolumab cohort, with a modest CD8 T cell increase. Immunohistochemistry revealed that plasma cell abundance correlated with dense intra-tumoral lymphoid aggregates (LA) lacking germinal center-like morphology, a pattern consistent with extrafollicular B cell differentiation. Single-cell spatial transcriptomics identified irregular lymphoid aggregates with high plasma cell to B cell ratios (PBRs) that were enriched for terminally exhausted CD8 T cells and de-enriched for progenitor exhausted CD8 T cells and central memory CD4 T cells. Together, these findings implicate intra-tumoral LA disorganization and skewed T cell subsets as complementary features associated with limited efficacy of PD-1-based chemoimmunotherapy in PDAC. (Clinicaltrials.gov identifier: NCT03970252).",
+  "experimental_design": {
+    "overall_design": "RNA-seq was performed on RNA extracted from 6 pre-treatment biopsies from patient primary pancreatic adenocarcinoma (PDAC) tumors, 21 post-treatment (FOLFIRINOX+nivolumab) primary PDAC tumors, and 9 post-treatment (FOLFIRINOX) primary PDAC tumors; *** Raw data missing for the following Samples --GSM9360958 GSM9360959 GSM9360960 GSM9360961 GSM9360962 GSM9360963 GSM9360964 GSM9360965 GSM9360966 GSM9360967 GSM9360968 GSM9360969 GSM9360970 GSM9360971 GSM9360972 GSM9360973 GSM9360974 GSM9360975 GSM9360976 GSM9360977 GSM9360990 ***",
+    "experimental_type": "Expression profiling by high throughput sequencing",
+    "tissue": "Pancreatic Ductal Adenocarcinoma"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL24676",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "library_strategy": "RNA-Seq",
+    "library_source": "transcriptomic",
+    "library_selection": "cDNA",
+    "molecule": "total RNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "Pre-treatment tumor biopsy or post-treatment tumor resection specimens were formalin fixed and embedded in paraffin. Tissue sections were cut to slides and pathologist-guided, tumor-enriched regions were macroscopically scraped.",
+      "Libraries for RNA-Seq were prepared with KAPA stranded RNA HyperPrep Kit with RiboErase (HMR)",
+      "Sequencing was performed on Illumina NovaSeq6000 for a PE 2x50 run. Data quality check was done on Illumina SAV. Demultiplexing was performed with Illumina Bcl2fastq v2.19.1.403 software"
+    ]
+  },
+  "data_processing": [
+    "The reads were mapped by STAR 2.7.9a and read counts per gene were quantified using the human genome GRCh38. In Partek Flow, read counts were normalized by CPM +1.0E-4",
+    "Assembly: GRCh38",
+    "Supplementary files format and content: txt file of normalized counts"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 13 2025",
+    "submission_date": "Dec 09 2025",
+    "last_update_date": "Jan 09 2026",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1378327"
+  }
+}

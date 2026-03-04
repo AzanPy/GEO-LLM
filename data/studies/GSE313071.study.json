@@ -1,0 +1,45 @@
+{
+  "gse_id": "GSE313071",
+  "title": "Single-cell heterogeneity in interferon induction potential is heritable and governed by variation in cell state IV",
+  "organism": "Homo sapiens",
+  "study_summary": "Type I and III interferons (IFNs) are among the first lines of defense against viral infections, yet they are generally only produced by a tiny fraction of infected cells. Here, we show that variability in tonic cell signaling significantly influences cells\u2019 ability to produce IFN upon stimulation with the synthetic double-stranded RNA, polyinosinic:polycytidylic acid (pIC). Using single-cell approaches, we found that members of the activator protein (AP)-1 transcription factor were implicated in IFNL1 expression predisposition. This guided us to investigate the role of the mitogen-activated protein kinase (MAPK) pathway, specifically the c-Jun N-terminal kinase (JNK), in IFNL1 production. We found that inhibition of JNK signaling severely altered the nature of the innate antiviral response upon pIC stimulation, independently of the Janus kinase/signal transducer and activator of transcription (JAK/STAT) pathway. Together, our study emphasizes the influence of intrinsic stochasticity in cell state on heterogeneity in IFN expression.",
+  "experimental_design": {
+    "overall_design": "Bulk ATAC-seq of clonal populations dervied from a parental (WT) A549 population. These are unstimulated samples to assess their basal chromatin accessibility profiles.",
+    "experimental_type": "Genome binding/occupancy profiling by high throughput sequencing",
+    "tissue": "cell line"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL34284",
+    "instrument_model": "Illumina NovaSeq X Plus",
+    "library_strategy": "ATAC-seq",
+    "library_source": "genomic",
+    "library_selection": "other",
+    "molecule": "genomic DNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "growth_protocol": "A549 cells were maintained in DMEM supplemented with 8.3% fetal bovine serum in an incubator at 37\u2103 with 5%CO2",
+    "extraction_protocol": [
+      "24 hours after seeding, the A549 cells were trypsinized and collected on ice before taken to the sequencing facility. The cells were then processed using the ATACseq kit from Active Motif.",
+      "The libraries were prepared using the ATACseq kit from Active Motif. They were then pooled and sequenced on one 10B lane for 151 cycles from both ends of the fragments on a NovaSeq X Plus with V1.0 sequencing kits"
+    ]
+  },
+  "data_processing": [
+    "The fastq files were generated and demultiplexed with the bcl-convert v4.1.7 Conversion Software (Illumina)",
+    "Adaptors were trimmed from the 3'-end of the reads",
+    "Alignment was done using Bowtie2/2.4.5 with GRCh38",
+    "Blacklisted regions (hg38-blacklist.v2.bed) were filtered out with pybedtools/0.9.0",
+    "Peaks were called using MACS2/2.2.5",
+    ".bw files were generated with bamCoverage from deepTools/3.5.2 with a binSize of 20 and normalized using CPM",
+    "The consensus coverage txt file was generated from making a consensus file with bedtools, and peaks per counted and annotated to make the consensuscoverage_countmatrix_counts.txt",
+    "Assembly: NCBI GRCh38 with Ensembl99",
+    "Supplementary files format and content: tab-delimited file containing a full count matrix for the accessible regions per cell line and replicate",
+    "Supplementary files format and content: bigWig file for peak visualization"
+  ],
+  "study_metadata": {
+    "status": "Public on Dec 13 2025",
+    "submission_date": "Dec 09 2025",
+    "last_update_date": "Dec 13 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1378215"
+  }
+}

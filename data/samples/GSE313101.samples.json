@@ -1,0 +1,637 @@
+{
+  "gse_id": "GSE313101",
+  "sample_summary": {
+    "total_samples": 37
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM9360958",
+      "title": "PostFFX+nivolumab, Pt_18",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_18"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541414",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746707"
+      }
+    },
+    {
+      "gsm_id": "GSM9360959",
+      "title": "PostFFX, Pt_F7",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F7"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541413",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746708"
+      }
+    },
+    {
+      "gsm_id": "GSM9360960",
+      "title": "PostFFX, Pt_F8",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F8"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541412",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746709"
+      }
+    },
+    {
+      "gsm_id": "GSM9360961",
+      "title": "PostFFX, Pt_F4",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F4"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541411",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746710"
+      }
+    },
+    {
+      "gsm_id": "GSM9360962",
+      "title": "PostFFX, Pt_F5",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F5"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541410",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746711"
+      }
+    },
+    {
+      "gsm_id": "GSM9360963",
+      "title": "PostFFX, Pt_F9",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F9"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541409",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746712"
+      }
+    },
+    {
+      "gsm_id": "GSM9360964",
+      "title": "PostFFX, Pt_F6",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F6"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541408",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746713"
+      }
+    },
+    {
+      "gsm_id": "GSM9360965",
+      "title": "PostFFX+nivolumab, Pt_1",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541407",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746714"
+      }
+    },
+    {
+      "gsm_id": "GSM9360966",
+      "title": "PostFFX+nivolumab, Pt_4",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_4"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541406",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746715"
+      }
+    },
+    {
+      "gsm_id": "GSM9360967",
+      "title": "PostFFX+nivolumab, Pt_5",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_5"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541405",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746716"
+      }
+    },
+    {
+      "gsm_id": "GSM9360968",
+      "title": "PostFFX+nivolumab, Pt_12",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_12"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541404",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746717"
+      }
+    },
+    {
+      "gsm_id": "GSM9360969",
+      "title": "PostFFX+nivolumab, Pt_11",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_11"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541403",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746718"
+      }
+    },
+    {
+      "gsm_id": "GSM9360970",
+      "title": "PostFFX+nivolumab, Pt_13",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_13"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541402",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746719"
+      }
+    },
+    {
+      "gsm_id": "GSM9360971",
+      "title": "PostFFX+nivolumab, Pt_15",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_15"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541401",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746720"
+      }
+    },
+    {
+      "gsm_id": "GSM9360972",
+      "title": "PostFFX, Pt_F1",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F1"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541400",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746721"
+      }
+    },
+    {
+      "gsm_id": "GSM9360973",
+      "title": "PostFFX, Pt_F2",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F2"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541399",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746722"
+      }
+    },
+    {
+      "gsm_id": "GSM9360974",
+      "title": "PostFFX, Pt_F3",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX"
+      },
+      "descriptions": [
+        "Library name: Pt_F3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541398",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746723"
+      }
+    },
+    {
+      "gsm_id": "GSM9360975",
+      "title": "PostFFX+nivolumab, Pt_3",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_3"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541397",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746724"
+      }
+    },
+    {
+      "gsm_id": "GSM9360976",
+      "title": "PostFFX+nivolumab, Pt_6",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_6"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541396",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746725"
+      }
+    },
+    {
+      "gsm_id": "GSM9360977",
+      "title": "PostFFX+nivolumab, Pt_9",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_9"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541395",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746726"
+      }
+    },
+    {
+      "gsm_id": "GSM9360978",
+      "title": "PreFFX+nivolumab, Pt_21P",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "None"
+      },
+      "descriptions": [
+        "Library name: Pt_21P"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832787",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414417"
+      }
+    },
+    {
+      "gsm_id": "GSM9360979",
+      "title": "PreFFX+nivolumab, Pt_6P",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "None"
+      },
+      "descriptions": [
+        "Library name: Pt_6P"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832786",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414418"
+      }
+    },
+    {
+      "gsm_id": "GSM9360980",
+      "title": "PostFFX+nivolumab, Pt_19",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_19"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832785",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414419"
+      }
+    },
+    {
+      "gsm_id": "GSM9360981",
+      "title": "PostFFX+nivolumab, Pt_14",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_14"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832784",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414420"
+      }
+    },
+    {
+      "gsm_id": "GSM9360982",
+      "title": "PreFFX+nivolumab, Pt_19P",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "None"
+      },
+      "descriptions": [
+        "Library name: Pt_19P"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832783",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414421"
+      }
+    },
+    {
+      "gsm_id": "GSM9360983",
+      "title": "PostFFX+nivolumab, Pt_10",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_10"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832782",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414422"
+      }
+    },
+    {
+      "gsm_id": "GSM9360984",
+      "title": "PostFFX+nivolumab, Pt_21",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_21"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832781",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414423"
+      }
+    },
+    {
+      "gsm_id": "GSM9360985",
+      "title": "PreFFX+nivolumab, Pt_12P",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "None"
+      },
+      "descriptions": [
+        "Library name: Pt_12P"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832780",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414424"
+      }
+    },
+    {
+      "gsm_id": "GSM9360986",
+      "title": "PreFFX+nivolumab, Pt_18P",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "None"
+      },
+      "descriptions": [
+        "Library name: Pt_18P"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832779",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414425"
+      }
+    },
+    {
+      "gsm_id": "GSM9360987",
+      "title": "PostFFX+nivolumab, Pt_16",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_16"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832778",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414426"
+      }
+    },
+    {
+      "gsm_id": "GSM9360988",
+      "title": "PostFFX+nivolumab, Pt_20",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_20"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832777",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414427"
+      }
+    },
+    {
+      "gsm_id": "GSM9360989",
+      "title": "PostFFX+nivolumab, Pt_27",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_27"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832776",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414428"
+      }
+    },
+    {
+      "gsm_id": "GSM9360990",
+      "title": "PreFFX+nivolumab, Pt_2P",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "None"
+      },
+      "descriptions": [
+        "Library name: Pt_2P"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN54541394",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31746727"
+      }
+    },
+    {
+      "gsm_id": "GSM9360991",
+      "title": "PostFFX+nivolumab, Pt_24",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_24"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832775",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414429"
+      }
+    },
+    {
+      "gsm_id": "GSM9360992",
+      "title": "PostFFX+nivolumab, Pt_26",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_26"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832774",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414430"
+      }
+    },
+    {
+      "gsm_id": "GSM9360993",
+      "title": "PostFFX+nivolumab, Pt_22a",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_22a"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832773",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414431"
+      }
+    },
+    {
+      "gsm_id": "GSM9360994",
+      "title": "PostFFX+nivolumab, Pt_25",
+      "biological_metadata": {
+        "tissue": "Pancreatic Ductal Adenocarcinoma"
+      },
+      "experimental_conditions": {
+        "treatment": "FOLFIRINOX+nivolumab"
+      },
+      "descriptions": [
+        "Library name: Pt_25"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN53832772",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX31414432"
+      }
+    }
+  ]
+}

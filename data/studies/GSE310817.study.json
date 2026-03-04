@@ -1,0 +1,31 @@
+{
+  "gse_id": "GSE310817",
+  "title": "Mouse DNA methylation atlas using Infinium Mouse Methylation Beadchips [EPIC array profiling]",
+  "organism": "Homo sapiens;Mus musculus",
+  "study_summary": "Design, annotation, and technical and biological validation of the MouseMethylation Beadchips (MM285) platform. Application of the mouse array for tissue and tumor epigenetics, comparative epigenomics, genomic imprinting, epigenetic inhibitors, PDX assessment, backcross tracing, and epigenetic clocks. The mouse data were deposited in GSE184410.",
+  "experimental_design": {
+    "overall_design": "37 samples, mixing human blood with mouse spleen and adipocyte (fat) cell DNA at different ratios. The mixed DNA is then subject to EPIC array profiling before being used to infer mouse DNA in patient derived xenograph models.",
+    "experimental_type": "Methylation profiling by genome tiling array"
+  },
+  "sequencing_technology": {
+    "platform_id": "GPL21145",
+    "molecule": "genomic DNA",
+    "channel_count": "1"
+  },
+  "experimental_protocols": {
+    "extraction_protocol": [
+      "Genomic DNA was extracted using commercially available QIAGEN QIAamp Mini Kit (QIAGEN, 51304), following the manufacturer\u2019s protocol."
+    ]
+  },
+  "data_processing": [
+    "SeSAMe software v1.22, openSesame and IDATs are de-identified to mask SNP probe readings using the deIdentifiy() function.",
+    "Normalized average Beta",
+    "Unmethylated and methylated signal intensities"
+  ],
+  "study_metadata": {
+    "status": "Public on Nov 20 2025",
+    "submission_date": "Nov 20 2025",
+    "last_update_date": "Nov 21 2025",
+    "bioproject": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1367114"
+  }
+}

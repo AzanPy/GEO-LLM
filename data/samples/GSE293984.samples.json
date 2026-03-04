@@ -1,0 +1,116 @@
+{
+  "gse_id": "GSE293984",
+  "sample_summary": {
+    "total_samples": 6
+  },
+  "samples": [
+    {
+      "gsm_id": "GSM8895868",
+      "title": "Retinal organoid-3, Control-1",
+      "biological_metadata": {
+        "tissue": "Retinal organoid",
+        "cell_line": "Control-1",
+        "cell_type": "Retinal cells",
+        "genotype": "WT"
+      },
+      "descriptions": [
+        "Library name: Control1_3",
+        "10x Genomics"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47818026",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28274158"
+      }
+    },
+    {
+      "gsm_id": "GSM8895869",
+      "title": "Retinal organoid-1, LCA-1",
+      "biological_metadata": {
+        "tissue": "Retinal organoid",
+        "cell_line": "LCA-1",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.1687C>T, homozygous"
+      },
+      "descriptions": [
+        "Library name: LCA1_1",
+        "10x Genomics"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47818025",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28274159"
+      }
+    },
+    {
+      "gsm_id": "GSM8895870",
+      "title": "Retinal organoid-2, LCA-1",
+      "biological_metadata": {
+        "tissue": "Retinal organoid",
+        "cell_line": "LCA-1",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.1687C>T, homozygous"
+      },
+      "descriptions": [
+        "Library name: LCA1_2",
+        "10x Genomics"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47818024",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28274160"
+      }
+    },
+    {
+      "gsm_id": "GSM8895871",
+      "title": "Retinal organoid-1, MS-VUS",
+      "biological_metadata": {
+        "tissue": "Retinal organoid",
+        "cell_line": "MS-VUS",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.2108T>C p.(Ile703Thr), homozygous"
+      },
+      "descriptions": [
+        "Library name: MSVUS_1",
+        "10x Genomics"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47818023",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28274161"
+      }
+    },
+    {
+      "gsm_id": "GSM8895872",
+      "title": "Retinal organoid-2, MS-VUS",
+      "biological_metadata": {
+        "tissue": "Retinal organoid",
+        "cell_line": "MS-VUS",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.2108T>C p.(Ile703Thr), homozygous"
+      },
+      "descriptions": [
+        "Library name: MSVUS_2",
+        "10x Genomics"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47818022",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28274162"
+      }
+    },
+    {
+      "gsm_id": "GSM8895873",
+      "title": "Retinal organoid-3, MS-VUS",
+      "biological_metadata": {
+        "tissue": "Retinal organoid",
+        "cell_line": "MS-VUS",
+        "cell_type": "Retinal cells",
+        "genotype": "RPGRIP1 (NM_020366.4): c.2108T>C p.(Ile703Thr), homozygous"
+      },
+      "descriptions": [
+        "Library name: MSVUS_3",
+        "10x Genomics"
+      ],
+      "accessions": {
+        "biosample": "//www.ncbi.nlm.nih.gov/biosample/SAMN47818021",
+        "sra_experiment": "//www.ncbi.nlm.nih.gov/sra?term=SRX28274163"
+      }
+    }
+  ]
+}
