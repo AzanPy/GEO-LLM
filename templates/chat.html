@@ -2,116 +2,303 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEO-LLM RAG Chatbot</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEO-LLM</title>
+    <link rel="stylesheet" href="/static/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>🔬 GEO-LLM RAG Assistant</h1>
-            <p class="subtitle">Biomedical Dataset Search powered by Qdrant Cloud + Groq</p>
-        </header>
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <div class="brand">
+                    <div class="brand-badge">🔬</div>
+                    <div class="brand-text">
+                        <div class="brand-title">GEO-LLM</div>
+                        <div class="brand-subtitle">Biomedical RAG</div>
+                    </div>
+                </div>
 
-        <main>
-            <div class="chat-container">
-                <div class="messages" id="messages">
-                    <div class="message bot">
-                        <div class="avatar">🤖</div>
-                        <div class="content">
-                            <p>Hello! I'm your GEO dataset assistant. Ask me about:</p>
+                <button class="btn btn-ghost" id="newChatBtn" type="button">+ New chat</button>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-label">Recent</div>
+                <div class="chat-list" id="chatList">
+                    <div class="chat-list-item active">
+                        <div class="chat-title">Untitled</div>
+                        <div class="chat-meta">Hybrid retrieval</div>
+                    </div>
+                    <!-- Placeholder: later you can render history -->
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="tiny">Powered by Qdrant + Groq</div>
+            </div>
+        </aside>
+
+        <!-- Main -->
+        <main class="main">
+            <header class="topbar">
+                <div class="topbar-left">
+                    <div class="page-title">GEO Dataset Assistant</div>
+                    <div class="page-hint">Ask for datasets, tissues, assays, platforms — with citations.</div>
+                </div>
+
+                <div class="topbar-right">
+                    <label class="toggle">
+                        <input type="checkbox" id="debugToggle" />
+                        <span>Debug</span>
+                    </label>
+                </div>
+            </header>
+
+            <section class="thread" id="thread">
+                <div class="msg assistant">
+                    <div class="msg-avatar">🤖</div>
+                    <div class="msg-body">
+                        <div class="msg-bubble">
+                            <p>Hi! I can help you find GEO datasets and summarize evidence.</p>
                             <ul>
-                                <li>Specific datasets (e.g., "Find human retinal datasets with AMD")</li>
-                                <li>Experimental designs (e.g., "Which studies have biological replicates?")</li>
-                                <li>Sample metadata (e.g., "Mouse brain samples with single-cell RNA-seq")</li>
-                                <li>Platform/technology comparisons</li>
+                                <li>“Find human retinal datasets with AMD”</li>
+                                <li>“mouse brain scRNA-seq samples”</li>
+                                <li>“Which studies have biological replicates?”</li>
                             </ul>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <form class="input-area" action="/chat" method="POST" id="chatForm">
-                    <input type="text" name="message" id="messageInput" placeholder="Ask about GEO datasets..." required
-                        autocomplete="off">
-                    <button type="submit" id="sendBtn">
-                        <span>Send</span>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <line x1="22" y1="2" x2="11" y2="13"></line>
-                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                        </svg>
+            <section class="composer">
+                <form id="composerForm" class="composer-inner">
+                    <input id="promptInput" type="text" placeholder="Message GEO-LLM…" autocomplete="off" required />
+                    <button id="sendBtn" type="submit" class="btn btn-primary">
+                        <span id="sendLabel">Send</span>
                     </button>
                 </form>
-            </div>
 
-            {% if query %}
-            <div class="result-section">
-                <div class="query-box">
-                    <strong>Your Question:</strong> {{ query }}
+                <div class="composer-hint">
+                    Answers are grounded in retrieved evidence. Citations like <code>[GSE12345]</code>.
                 </div>
-
-                {% if error %}
-                <div class="error-box">
-                    <strong>Error:</strong> {{ error }}
-                </div>
-                {% else %}
-                <div class="answer-box">
-                    <h3>🤖 Answer</h3>
-                    <div class="answer-content">{{ answer | safe }}</div>
-                </div>
-
-                {% if sources %}
-                <div class="sources-box">
-                    <h4>📚 Sources (Top {{ sources|length }})</h4>
-                    {% for source in sources %}
-                    <div class="source-item">
-                        <div class="source-header">
-                            <span class="badge">{{ source.source }}</span>
-                            <span class="gse-id">{{ source.gse_id }}</span>
-                            <span class="score">Score: {{ "%.3f"|format(source.vector_score) }}</span>
-                        </div>
-                        <div class="source-meta">
-                            {% if source.organism %}<span>🧬 {{ source.organism }}</span>{% endif %}
-                            {% if source.tissue %}<span>🫀 {{ source.tissue }}</span>{% endif %}
-                            {% if source.assay_type %}<span>🔬 {{ source.assay_type }}</span>{% endif %}
-                        </div>
-                        <p class="source-text">{{ source.text[:200] }}...</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
-                {% endif %}
-            </div>
-            {% endif %}
+            </section>
         </main>
-
-        <footer>
-            <p>Powered by <a href="https://qdrant.tech/cloud" target="_blank">Qdrant Cloud</a> & <a
-                    href="https://groq.com" target="_blank">Groq</a></p>
-        </footer>
     </div>
 
     <script>
-        // Auto-scroll to bottom of messages
-        const messages = document.getElementById('messages');
-        if (messages) {
-            messages.scrollTop = messages.scrollHeight;
+        const thread = document.getElementById("thread");
+        const form = document.getElementById("composerForm");
+        const input = document.getElementById("promptInput");
+        const sendBtn = document.getElementById("sendBtn");
+        const sendLabel = document.getElementById("sendLabel");
+        const debugToggle = document.getElementById("debugToggle");
+        const newChatBtn = document.getElementById("newChatBtn");
+
+        function scrollToBottom() {
+            thread.scrollTop = thread.scrollHeight;
         }
 
-        // Handle form submission with loading state
-        const form = document.getElementById('chatForm');
-        const sendBtn = document.getElementById('sendBtn');
+        function escapeHtml(str) {
+            return (str || "")
+                .replaceAll("&", "&amp;")
+                .replaceAll("<", "&lt;")
+                .replaceAll(">", "&gt;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("'", "&#039;");
+        }
 
-        form.addEventListener('submit', function () {
-            sendBtn.disabled = true;
-            sendBtn.innerHTML = '<span class="loading">Thinking...</span>';
+        function addMessage(role, text) {
+            const el = document.createElement("div");
+            el.className = "msg " + (role === "user" ? "user" : "assistant");
+
+            const avatar = document.createElement("div");
+            avatar.className = "msg-avatar";
+            avatar.textContent = role === "user" ? "🧑" : "🤖";
+
+            const body = document.createElement("div");
+            body.className = "msg-body";
+
+            const bubble = document.createElement("div");
+            bubble.className = "msg-bubble";
+            bubble.innerHTML = `<pre class="msg-pre">${escapeHtml(text)}</pre>`;
+
+            body.appendChild(bubble);
+            el.appendChild(avatar);
+            el.appendChild(body);
+
+            thread.appendChild(el);
+            scrollToBottom();
+            return bubble;
+        }
+
+        function addSourcesPanel(sources) {
+            if (!sources || !sources.length) return;
+
+            const wrap = document.createElement("div");
+            wrap.className = "sources";
+
+            const header = document.createElement("button");
+            header.type = "button";
+            header.className = "sources-header";
+            header.textContent = `Sources (${sources.length})`;
+            wrap.appendChild(header);
+
+            const panel = document.createElement("div");
+            panel.className = "sources-panel";
+
+            sources.forEach(s => {
+                const item = document.createElement("div");
+                item.className = "source-item";
+
+                const top = document.createElement("div");
+                top.className = "source-top";
+                top.innerHTML = `
+          <span class="badge">${escapeHtml(s.source || "study")}</span>
+          <span class="gse">${escapeHtml(s.gse_id || "UNKNOWN")}</span>
+          <span class="score">vec: ${Number(s.vector_score || 0).toFixed(3)}</span>
+        `;
+
+                const meta = document.createElement("div");
+                meta.className = "source-meta";
+                meta.textContent =
+                    [s.organism, s.tissue, s.assay_type].filter(Boolean).join(" • ");
+
+                const txt = document.createElement("div");
+                txt.className = "source-text";
+                txt.textContent = (s.text || "").slice(0, 260) + ((s.text || "").length > 260 ? "…" : "");
+
+                item.appendChild(top);
+                if (meta.textContent) item.appendChild(meta);
+                item.appendChild(txt);
+                panel.appendChild(item);
+            });
+
+            wrap.appendChild(panel);
+
+            header.addEventListener("click", () => {
+                wrap.classList.toggle("open");
+            });
+
+            // append to last assistant message bubble container
+            const last = thread.querySelector(".msg.assistant:last-child .msg-body");
+            if (last) last.appendChild(wrap);
+            scrollToBottom();
+        }
+
+        function addDebugPanel(debug) {
+            if (!debugToggle.checked) return;
+            if (!debug) return;
+
+            const wrap = document.createElement("div");
+            wrap.className = "debug";
+
+            const header = document.createElement("div");
+            header.className = "debug-header";
+            header.textContent = "Debug";
+            wrap.appendChild(header);
+
+            const pre = document.createElement("pre");
+            pre.className = "debug-pre";
+            pre.textContent = JSON.stringify(debug, null, 2);
+            wrap.appendChild(pre);
+
+            const last = thread.querySelector(".msg.assistant:last-child .msg-body");
+            if (last) last.appendChild(wrap);
+            scrollToBottom();
+        }
+
+        function setLoading(isLoading) {
+            sendBtn.disabled = isLoading;
+            sendLabel.textContent = isLoading ? "Thinking…" : "Send";
+        }
+
+        async function streamChat(message) {
+            const assistantBubble = addMessage("assistant", "");
+            let buffer = "";
+
+            // SSE via fetch
+            const resp = await fetch("/api/chat/stream", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message })
+            });
+
+            if (!resp.ok || !resp.body) {
+                assistantBubble.innerHTML = `<pre class="msg-pre">Error: ${resp.status}</pre>`;
+                return;
+            }
+
+            const reader = resp.body.getReader();
+            const decoder = new TextDecoder("utf-8");
+
+            let sources = null;
+            let debug = null;
+
+            while (true) {
+                const { value, done } = await reader.read();
+                if (done) break;
+
+                const chunk = decoder.decode(value, { stream: true });
+                // SSE events separated by \n\n; each line "data: ..."
+                const parts = chunk.split("\n\n");
+
+                for (const part of parts) {
+                    const line = part.split("\n").find(l => l.startsWith("data: "));
+                    if (!line) continue;
+
+                    const dataStr = line.slice(6);
+                    let evt;
+                    try { evt = JSON.parse(dataStr); } catch { continue; }
+
+                    if (evt.type === "meta") {
+                        sources = evt.sources || null;
+                        debug = evt.debug || null;
+                    } else if (evt.type === "chunk") {
+                        buffer += evt.text || "";
+                        assistantBubble.innerHTML = `<pre class="msg-pre">${escapeHtml(buffer)}</pre>`;
+                        scrollToBottom();
+                    } else if (evt.type === "done") {
+                        // attach sources/debug panels
+                        addSourcesPanel(sources);
+                        addDebugPanel(debug);
+                    } else if (evt.type === "error") {
+                        assistantBubble.innerHTML = `<pre class="msg-pre">Error: ${escapeHtml(evt.message || "unknown")}</pre>`;
+                    }
+                }
+            }
+        }
+
+        form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const msg = input.value.trim();
+            if (!msg) return;
+
+            addMessage("user", msg);
+            input.value = "";
+            setLoading(true);
+
+            try {
+                await streamChat(msg);
+            } catch (err) {
+                addMessage("assistant", "Error: " + (err?.message || String(err)));
+            } finally {
+                setLoading(false);
+                input.focus();
+            }
         });
 
-        // Focus input on load
-        document.getElementById('messageInput').focus();
+        newChatBtn.addEventListener("click", () => {
+            // simple reset (no backend persistence yet)
+            thread.innerHTML = "";
+            addMessage("assistant", "New chat started. Ask your GEO question.");
+            input.focus();
+        });
+
+        input.focus();
+        scrollToBottom();
     </script>
 </body>
 
