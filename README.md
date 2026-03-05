@@ -1,6 +1,6 @@
 # GEO-LLM
 
-# How to run this project
+# How to run this project using conda (Recommended)
 ### STEPS:
 
 1. Clone this repository
@@ -23,34 +23,79 @@ pip install -r requirements.txt
 
 ```ini
 GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
- = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+QDRANT_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+QDRANT_URL = "https://your-cluster.cloud.qdrant.io"
 ```
 
 
-```bash
-# run the following command to store embeddings to pinecone
-python store_index.py
-```
 
 ```bash
 # Finally run the following command
-python app.py
+uvicorn app:app --reload --port 8000
 ```
 
 Now,
 ```bash
 open up localhost:8000
 ```
+# How to run this project using Docker
+### STEPS:
 
+1. Clone this repository
+```bash
+ git clone https://github.com/AzanPy/GEO-LLM
+```
+2. Create a .env file in the root directory and add your credentials
+```bash
+QDRANT_URL=https://your-cluster.cloud.qdrant.io
+QDRANT_API_KEY=your_qdrant_api_key
 
-### Techstack Used:
+GROQ_API_KEY=your_groq_api_key
+GROQ_MODEL=llama-3.1-8b-instant
 
-- Python
-- LangChain
-- Flask
-- GPT
-- Pinecone
+```
+3. Build the docker image
+```bash
+docker build -t geo-llm .
+```
+4. Run the docker image
+```bash
+docker run -p 8000:8000 --env-file .env geo-llm
+```
+5. Open your browser 
 
+```bash
+
+http://localhost:8000
+
+```
+# How to run this project using Docker Compose (Optional)
+### STEPS:
+
+1. Build and start the container
+```bash
+docker compose up --build
+```
+2. Run in detached mode
+```bash
+docker compose up -d
+```
+3. Stop the container
+```bash
+docker compose down
+```
+4. Open your browser 
+
+```bash
+
+http://localhost:8000/health
+
+```
+5. ⚠️ Make sure Docker is installed
+
+```bash
+docker --version
+```
 
 
 # AWS-CICD-Deployment-with-Github-Actions
@@ -120,5 +165,9 @@ open up localhost:8000
    - AWS_SECRET_ACCESS_KEY
    - AWS_DEFAULT_REGION
    - ECR_REPO
-   - PINECONE_API_KEY
-   - OPENAI_API_KEY
+   - EC2_HOST
+   - EC2_SSH_KEY
+   - EC2_USER
+   - GROQ_API_KEY
+   - QDRANT_API_KEY
+   - QDRANT_URL
